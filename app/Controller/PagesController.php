@@ -52,7 +52,7 @@ class PagesController extends AppController {
 
 			$this->render(implode('/', $path));
 
-			new ReportToPDF(array('ESTADO_ID' => 1),'rpt1.jrxml');
+			ReportToPDF::generateReport(array('ESTADO_ID'=>1), 'rpt1.jrxml','',1);
 			
 	}
 }

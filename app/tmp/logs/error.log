@@ -1926,3 +1926,80 @@ Stack Trace:
 #5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
 #7 {main}
+2014-03-18 12:35:03 Error: [NotFoundException] Relatorio inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}
+2014-03-18 12:35:06 Error: [NotFoundException] Relatorio inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}
+2014-03-18 12:38:30 Error: [NotFoundException] Relatorio inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}
+2014-03-18 12:38:34 Error: [NotFoundException] Relatorio inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}
+2014-03-18 13:35:46 Error: [NotFoundException] Relatório inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF::generateReport(Array, 'rpt1.jrxml', '', 1)
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}
+2014-03-18 13:35:47 Error: [NotFoundException] Relatório inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF::generateReport(Array, 'rpt1.jrxml', '', 1)
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}
+2014-03-18 13:35:48 Error: [NotFoundException] Relatório inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF::generateReport(Array, 'rpt1.jrxml', '', 1)
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}

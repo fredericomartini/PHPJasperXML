@@ -1,5 +1,8 @@
 <?php
 App::uses('AppController', 'Controller');
+//App::import('Vendor', 'PHPJasperXML/ReportToPDF');
+App::uses('ReportToPDF','Vendor/PHPJasperXML');
+
 /**
  * Cidades Controller
  *
@@ -7,7 +10,7 @@ App::uses('AppController', 'Controller');
  * @property PaginatorComponent $Paginator
  */
 class CidadesController extends AppController {
-
+	
 /**
  * Components
  *
@@ -23,6 +26,8 @@ class CidadesController extends AppController {
 	public function index() {
 		$this->Cidade->recursive = 0;
 		$this->set('cidades', $this->Paginator->paginate());
+		
+		ReportToPDF::generateReport(array('ESTADO_ID'=>1), 'rpt1.jrxml','',1);		
 	}
 
 /**
@@ -93,4 +98,15 @@ class CidadesController extends AppController {
 		} else {
 			return $this->flash(__('The cidade could not be deleted. Please, try again.'), array('action' => 'index'));
 		}
-	}}
+	}
+	public function gerarRelatorio()
+	{
+		
+		//ReportToPDF::generateReport('','rpt1.jrxml', '', 2);
+		//$this->report->generateReport('','rpt1.jrxml','',2);
+		//debug($this->report);
+		//$t->loadDatabase();
+		$this->report->generateReport(array('ESTADO_ID', 1),'rpt1.jrxml');
+	}	
+
+}
