@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Máquina: localhost
--- Data de Criação: 18-Mar-2014 às 13:36
+-- Data de Criação: 18-Mar-2014 às 19:57
 -- Versão do servidor: 5.5.35-0ubuntu0.13.10.2
 -- versão do PHP: 5.5.3-1ubuntu2.2
 
@@ -31,16 +31,20 @@ CREATE TABLE IF NOT EXISTS `cidade` (
   `nome` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `estado_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=5 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=9 ;
 
 --
 -- Extraindo dados da tabela `cidade`
 --
 
 INSERT INTO `cidade` (`id`, `nome`, `estado_id`) VALUES
-(1, 'Pelotas', 3),
-(3, 'Cangucu', 3),
-(4, 'Viamao', 3);
+(1, 'Pelotas', 1),
+(2, 'Cangucu', 1),
+(3, 'Viamao', 1),
+(4, 'SÃ£o Paulo - Capital', 2),
+(5, 'Rio de Janeiro', 3),
+(7, 'Cruz Alta', 1),
+(8, 'Morro Redondo', 1);
 
 -- --------------------------------------------------------
 
@@ -53,14 +57,16 @@ CREATE TABLE IF NOT EXISTS `estado` (
   `nome` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
   `pais_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=4 ;
 
 --
 -- Extraindo dados da tabela `estado`
 --
 
 INSERT INTO `estado` (`id`, `nome`, `pais_id`) VALUES
-(1, 'Rio grande do sul', 3);
+(1, 'Rio grande do sul', 1),
+(2, 'SÃ£o Paulo', 1),
+(3, 'Rio de Janeiro', 1);
 
 -- --------------------------------------------------------
 
@@ -79,8 +85,8 @@ CREATE TABLE IF NOT EXISTS `paise` (
 --
 
 INSERT INTO `paise` (`id`, `nome`) VALUES
-(2, 'Brasil'),
-(3, 'Argentina');
+(1, 'Brasil'),
+(2, 'Argentina');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

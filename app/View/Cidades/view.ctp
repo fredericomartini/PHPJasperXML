@@ -25,5 +25,6 @@
 		<li><?php echo $this->Form->postLink(__('Delete Cidade'), array('action' => 'delete', $cidade['Cidade']['id']), null, __('Are you sure you want to delete # %s?', $cidade['Cidade']['id'])); ?> </li>
 		<li><?php echo $this->Html->link(__('List Cidades'), array('action' => 'index')); ?> </li>
 		<li><?php echo $this->Html->link(__('New Cidade'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Relatóriso'), array('action' => 'imprimirRelatorio', $cidade['Cidade']['id'])); ?> </li>
 	</ul>
 </div>

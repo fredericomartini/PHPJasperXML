@@ -1,2 +1,2 @@
-1395107592
-a:1:{s:4:"name";a:1:{s:32:"d0655f061de669c9e62e46af16400a8a";s:10:"`bd_teste`";}}
+1395183665
+a:2:{s:4:"name";a:7:{s:32:"d0655f061de669c9e62e46af16400a8a";s:10:"`bd_teste`";s:32:"0a15d6f5c83ca26105ecb54763af90a6";s:8:"`cidade`";s:32:"ff99d875c6025fcf02a9f9be9b675993";s:13:"`Cidade`.`id`";s:32:"ef94bafaa5e5ae4a24e04d482a33690f";s:15:"`Cidade`.`nome`";s:32:"ba72f3926efa41088ad63565213cdd3a";s:20:"`Cidade`.`estado_id`";s:32:"12f9abdede7dfb2200da04ca90ad02bd";s:8:"`Cidade`";s:32:"47eb7bb09414c64f779510914712b6ee";s:7:"`count`";}s:6:"fields";a:2:{s:32:"2587cac5cea39faef0319290717488a6";a:3:{i:0;s:13:"`Cidade`.`id`";i:1;s:15:"`Cidade`.`nome`";i:2;s:20:"`Cidade`.`estado_id`";}s:32:"1df18a036ffa33938ceb7d81659245ca";a:1:{i:0;s:19:"COUNT(*) AS `count`";}}}

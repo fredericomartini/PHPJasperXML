@@ -1827,179 +1827,803 @@ Stack Trace:
 #4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
 #5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
-2014-03-18 00:25:18 Error: [NotFoundException] Relatorio inexistente
-Request URL: /PHPJasperXML/
-Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
-2014-03-18 00:26:05 Error: [NotFoundException] Relatorio inexistente
+2014-03-18 12:41:40 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-18 12:41:40 Error: [FatalErrorException] Class 'ReportToPDF' not found
 Request URL: /cakephp/
 Stack Trace:
-#0 /var/www/cakephp/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
-#7 {main}
-2014-03-18 00:26:07 Error: [NotFoundException] Relatorio inexistente
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 12:46:28 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 12:50:18 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 66]
+2014-03-18 12:50:18 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 66)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 66, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 66, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 12:53:43 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 12:54:56 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 19]
+2014-03-18 12:54:56 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 19, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 19, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 12:55:59 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 19]
+2014-03-18 12:55:59 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 19, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 19, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 12:57:04 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 12:57:52 Error: Fatal Error (1): Call to a member function generateReport() on a non-object in [/var/www/cakephp/app/Controller/CidadesController.php, line 103]
+2014-03-18 12:57:52 Error: [FatalErrorException] Call to a member function generateReport() on a non-object
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 103)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 103, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 103, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 12:58:00 Error: Fatal Error (1): Call to a member function generateReport() on a non-object in [/var/www/cakephp/app/Controller/CidadesController.php, line 103]
+2014-03-18 12:58:00 Error: [FatalErrorException] Call to a member function generateReport() on a non-object
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 103)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 103, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 103, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 12:59:01 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 19]
+2014-03-18 12:59:01 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 19, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 19, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:01:23 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:01:23 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:01:38 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:01:38 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:01:41 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:01:41 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:01:48 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:01:48 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:01:49 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:01:49 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:02:36 Error: Fatal Error (1): Call to a member function generateReport() on a non-object in [/var/www/cakephp/app/Controller/CidadesController.php, line 105]
+2014-03-18 13:02:36 Error: [FatalErrorException] Call to a member function generateReport() on a non-object
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 105)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 105, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 105, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:02:59 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 13:03:25 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 13:03:47 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 13:05:20 Error: Fatal Error (1): Undefined class constant 'ReportToPDF::loadDatabase' in [/var/www/cakephp/lib/Cake/Routing/Dispatcher.php, line 235]
+2014-03-18 13:05:20 Error: [FatalErrorException] Undefined class constant 'ReportToPDF::loadDatabase'
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Undefined class...', '/var/www/cakeph...', 235)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', '/var/www/cakeph...', 235, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', '/var/www/cakeph...', 235, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:06:03 Error: Fatal Error (4): syntax error, unexpected '(', expecting ',' or ';' in [/var/www/cakephp/app/Controller/CidadesController.php, line 19]
+2014-03-18 13:06:03 Error: [FatalErrorException] syntax error, unexpected '(', expecting ',' or ';'
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 19, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 19, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:06:46 Error: Fatal Error (1): Undefined class constant 'ReportToPDF::loadDatabase' in [/var/www/cakephp/lib/Cake/Routing/Dispatcher.php, line 235]
+2014-03-18 13:06:46 Error: [FatalErrorException] Undefined class constant 'ReportToPDF::loadDatabase'
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Undefined class...', '/var/www/cakeph...', 235)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', '/var/www/cakeph...', 235, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', '/var/www/cakeph...', 235, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:06:47 Error: Fatal Error (1): Undefined class constant 'ReportToPDF::loadDatabase' in [/var/www/cakephp/lib/Cake/Routing/Dispatcher.php, line 235]
+2014-03-18 13:06:47 Error: [FatalErrorException] Undefined class constant 'ReportToPDF::loadDatabase'
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Undefined class...', '/var/www/cakeph...', 235)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', '/var/www/cakeph...', 235, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', '/var/www/cakeph...', 235, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:06:49 Error: Fatal Error (1): Undefined class constant 'ReportToPDF::loadDatabase' in [/var/www/cakephp/lib/Cake/Routing/Dispatcher.php, line 235]
+2014-03-18 13:06:49 Error: [FatalErrorException] Undefined class constant 'ReportToPDF::loadDatabase'
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Undefined class...', '/var/www/cakeph...', 235)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', '/var/www/cakeph...', 235, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', '/var/www/cakeph...', 235, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:07:01 Error: Fatal Error (4): syntax error, unexpected '(', expecting ',' or ';' in [/var/www/cakephp/app/Controller/CidadesController.php, line 19]
+2014-03-18 13:07:01 Error: [FatalErrorException] syntax error, unexpected '(', expecting ',' or ';'
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 19)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 19, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 19, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:07:26 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/cakephp/lib/Cake/Routing/Dispatcher.php, line 235]
+2014-03-18 13:07:26 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 235)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 235, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/cakeph...', 235, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:07:59 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/cakephp/lib/Cake/Routing/Dispatcher.php, line 235]
+2014-03-18 13:07:59 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 235)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 235, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/cakeph...', 235, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:08:12 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/cakephp/lib/Cake/Routing/Dispatcher.php, line 235]
+2014-03-18 13:08:12 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 235)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 235, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/cakeph...', 235, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:08:13 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/cakephp/lib/Cake/Routing/Dispatcher.php, line 235]
+2014-03-18 13:08:13 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 235)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 235, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/cakeph...', 235, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:08:13 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/cakephp/lib/Cake/Routing/Dispatcher.php, line 235]
+2014-03-18 13:08:13 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 235)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 235, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/cakeph...', 235, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:08:29 Error: Fatal Error (1): Undefined class constant 'ReportToPDF::loadDatabase' in [/var/www/cakephp/lib/Cake/Routing/Dispatcher.php, line 235]
+2014-03-18 13:08:29 Error: [FatalErrorException] Undefined class constant 'ReportToPDF::loadDatabase'
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Undefined class...', '/var/www/cakeph...', 235)
+#1 [internal function]: ErrorHandler::handleError(1, 'Undefined class...', '/var/www/cakeph...', 235, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Undefined class...', '/var/www/cakeph...', 235, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:10:06 Error: Fatal Error (1): Using $this when not in object context in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:10:06 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:10:31 Error: Fatal Error (1): Using $this when not in object context in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:10:31 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:10:32 Error: Fatal Error (1): Using $this when not in object context in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:10:32 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:12:25 Error: Fatal Error (1): Using $this when not in object context in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:12:25 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:12:26 Error: Fatal Error (1): Using $this when not in object context in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:12:26 Error: [FatalErrorException] Using $this when not in object context
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Using $this whe...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Using $this whe...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Using $this whe...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:14:20 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 13:14:30 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 13:15:00 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 13:15:02 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/gerar_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 13:15:51 Error: Fatal Error (1): Call to a member function generateReport() on a non-object in [/var/www/cakephp/app/Controller/CidadesController.php, line 110]
+2014-03-18 13:15:51 Error: [FatalErrorException] Call to a member function generateReport() on a non-object
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 110)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 110, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 110, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:17:58 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:17:58 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:22:14 Error: Fatal Error (1): Class 'ConnectionManager' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 23]
+2014-03-18 13:22:14 Error: [FatalErrorException] Class 'ConnectionManager' not found
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Connecti...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:24:04 Error: Fatal Error (1): Call to a member function generateReport() on a non-object in [/var/www/cakephp/app/Controller/CidadesController.php, line 114]
+2014-03-18 13:24:04 Error: [FatalErrorException] Call to a member function generateReport() on a non-object
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 114)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 114, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 114, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 13:24:23 Error: Fatal Error (1): Call to a member function generateReport() on a non-object in [/var/www/cakephp/app/Controller/CidadesController.php, line 114]
+2014-03-18 13:24:23 Error: [FatalErrorException] Call to a member function generateReport() on a non-object
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 114)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 114, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 114, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:42:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-18 18:42:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
 Request URL: /cakephp/
 Stack Trace:
-#0 /var/www/cakephp/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
-#7 {main}
-2014-03-18 00:26:07 Error: [NotFoundException] Relatorio inexistente
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:42:31 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-18 18:42:31 Error: [FatalErrorException] Class 'ReportToPDF' not found
 Request URL: /cakephp/
 Stack Trace:
-#0 /var/www/cakephp/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
-#7 {main}
-2014-03-18 00:26:08 Error: [NotFoundException] Relatorio inexistente
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:42:31 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-18 18:42:31 Error: [FatalErrorException] Class 'ReportToPDF' not found
 Request URL: /cakephp/
 Stack Trace:
-#0 /var/www/cakephp/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:42:35 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 85]
+2014-03-18 18:42:35 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:42:49 Error: [MissingActionException] Action CidadesController::gerarRelatorio() could not be found.
+Exception Attributes: array (
+  'controller' => 'CidadesController',
+  'action' => 'gerarRelatorio',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-18 18:45:02 Error: [MissingActionException] Action CidadesController::gerarRelatorio() could not be found.
+Exception Attributes: array (
+  'controller' => 'CidadesController',
+  'action' => 'gerarRelatorio',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-18 18:45:19 Error: [MissingActionException] Action CidadesController::gerarRelatorio() could not be found.
+Exception Attributes: array (
+  'controller' => 'CidadesController',
+  'action' => 'gerarRelatorio',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-18 18:45:21 Error: [MissingActionException] Action CidadesController::gerarRelatorio() could not be found.
+Exception Attributes: array (
+  'controller' => 'CidadesController',
+  'action' => 'gerarRelatorio',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-18 18:48:06 Error: [MissingActionException] Action CidadesController::gerarRelatorio() could not be found.
+Exception Attributes: array (
+  'controller' => 'CidadesController',
+  'action' => 'gerarRelatorio',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-18 18:48:38 Error: [MissingActionException] Action CidadesController::gerarRelatorio() could not be found.
+Exception Attributes: array (
+  'controller' => 'CidadesController',
+  'action' => 'gerarRelatorio',
+)
+Request URL: /cakephp/Cidades/gerarRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-18 18:49:41 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 85]
+2014-03-18 18:49:41 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:52:26 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 85]
+2014-03-18 18:52:26 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:52:51 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 85]
+2014-03-18 18:52:51 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:52:52 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 85]
+2014-03-18 18:52:52 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:53:04 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 85]
+2014-03-18 18:53:04 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:54:55 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 85]
+2014-03-18 18:54:55 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:55:02 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/ReportToPDF.php, line 85]
+2014-03-18 18:55:02 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 85, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-18 18:55:40 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:03:30 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:31:47 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:32:18 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:32:24 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/imprimirRelatorio/5
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:34:06 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/imprimirRelatorio/3
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:34:52 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/imprimirRelatorio/3
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:35:21 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:35:53 Error: [NotFoundException] Relatório inexistente
+Request URL: /cakephp/Cidades/imprimirRelatorio/3
+Stack Trace:
+#0 /var/www/cakephp/app/Controller/CidadesController.php(113): ReportToPDF::generateReport(Array, 'rpt12.jrxml')
+#1 [internal function]: CidadesController->imprimirRelatorio('3')
+#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
 #3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
 #5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
-#7 {main}
-2014-03-18 00:26:08 Error: [NotFoundException] Relatorio inexistente
-Request URL: /cakephp/
+#6 {main}
+2014-03-18 19:36:50 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /cakephp/Cidades/imprimirRelatorio/3
 Stack Trace:
-#0 /var/www/cakephp/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
-#7 {main}
-2014-03-18 00:27:53 Error: [NotFoundException] Relatorio inexistente
-Request URL: /PHPJasperXML/
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:44:55 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
 Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
-2014-03-18 00:28:51 Error: [NotFoundException] Relatorio inexistente
-Request URL: /PHPJasperXML/
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:55:07 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
 Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
-2014-03-18 00:29:26 Error: [NotFoundException] Relatorio inexistente
-Request URL: /PHPJasperXML/
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-18 19:55:15 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/4
 Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
-2014-03-18 12:35:03 Error: [NotFoundException] Relatorio inexistente
-Request URL: /PHPJasperXML/
-Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
-2014-03-18 12:35:06 Error: [NotFoundException] Relatorio inexistente
-Request URL: /PHPJasperXML/
-Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
-2014-03-18 12:38:30 Error: [NotFoundException] Relatorio inexistente
-Request URL: /PHPJasperXML/
-Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
-2014-03-18 12:38:34 Error: [NotFoundException] Relatorio inexistente
-Request URL: /PHPJasperXML/
-Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
-2014-03-18 13:35:46 Error: [NotFoundException] Relatório inexistente
-Request URL: /PHPJasperXML/
-Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF::generateReport(Array, 'rpt1.jrxml', '', 1)
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
-2014-03-18 13:35:47 Error: [NotFoundException] Relatório inexistente
-Request URL: /PHPJasperXML/
-Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF::generateReport(Array, 'rpt1.jrxml', '', 1)
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
-2014-03-18 13:35:48 Error: [NotFoundException] Relatório inexistente
-Request URL: /PHPJasperXML/
-Stack Trace:
-#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF::generateReport(Array, 'rpt1.jrxml', '', 1)
-#1 [internal function]: PagesController->display('home')
-#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
-#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
-#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
-#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
-#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
-#7 {main}
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -19,7 +19,7 @@
  */
 
 App::uses('AppController', 'Controller');
-App::uses('ReportToPDF', 'Vendor/PHPJasperXML');
+App::import('ReportToPDF', 'Vendor/PHPJasperXML');
 
 
 /**
@@ -52,7 +52,7 @@ class PagesController extends AppController {
 
 			$this->render(implode('/', $path));
 
-			ReportToPDF::generateReport(array('ESTADO_ID'=>1), 'rpt1.jrxml','',1);
+			new ReportToPDF(array('ESTADO_ID' => 1),'rpt1.jrxml');
 			
 	}
 }
