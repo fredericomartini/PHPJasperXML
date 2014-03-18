@@ -1,0 +1,1928 @@
+2014-03-17 14:59:46 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/display.ctp',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 14:59:47 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/display.ctp',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 15:03:18 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/display.ctp',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/app/Controller/PagesController.php(69): Controller->render(NULL)
+#3 [internal function]: PagesController->display('home')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-03-17 17:05:00 Error: [MissingComponentException] Component class RComponent could not be found.
+Exception Attributes: array (
+  'class' => 'RComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('R', Array)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(CidadesController))
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 17:05:03 Error: [MissingControllerException] Controller class CidadeController could not be found.
+Exception Attributes: array (
+  'class' => 'CidadeController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Cidade
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-17 17:05:05 Error: [MissingComponentException] Component class RComponent could not be found.
+Exception Attributes: array (
+  'class' => 'RComponent',
+  'plugin' => false,
+)
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Controller/ComponentCollection.php(53): ComponentCollection->load('R', Array)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(643): ComponentCollection->init(Object(CidadesController))
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(181): Controller->constructClasses()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 17:10:35 Error: [MissingControllerException] Controller class CidadeController could not be found.
+Exception Attributes: array (
+  'class' => 'CidadeController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Cidade
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-17 17:11:07 Error: [MissingControllerException] Controller class PaiseController could not be found.
+Exception Attributes: array (
+  'class' => 'PaiseController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Paise
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-17 22:49:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'mysql\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /cakephp/Cidades
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/cakephp/lib/Cake/Model/Model.php(3476): ConnectionManager::getDataSource('default')
+#3 /var/www/cakephp/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/cakephp/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#5 /var/www/cakephp/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#6 /var/www/cakephp/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#7 /var/www/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /var/www/cakephp/app/Controller/CidadesController.php(25): PaginatorComponent->paginate()
+#9 [internal function]: CidadesController->index()
+#10 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#11 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-03-17 19:56:20 Error: [MissingTableException] Table paise for model Paise was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'paise',
+  'class' => 'Paise',
+  'ds' => 'default',
+)
+Request URL: /cakephp/Paises
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3498): Model->setSource('paise')
+#1 /var/www/cakephp/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/cakephp/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/cakephp/app/Controller/PaisesController.php(25): PaginatorComponent->paginate()
+#5 [internal function]: PaisesController->index()
+#6 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PaisesController), Array)
+#7 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PaisesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-17 19:56:24 Error: [MissingControllerException] Controller class PaiseController could not be found.
+Exception Attributes: array (
+  'class' => 'PaiseController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Paise
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-17 19:56:27 Error: [MissingControllerException] Controller class PaisController could not be found.
+Exception Attributes: array (
+  'class' => 'PaisController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Pais
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-17 19:57:23 Error: [MissingControllerException] Controller class PaiseController could not be found.
+Exception Attributes: array (
+  'class' => 'PaiseController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Paise
+Stack Trace:
+#0 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-17 19:57:35 Error: [MissingTableException] Table paise for model Paise was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'paise',
+  'class' => 'Paise',
+  'ds' => 'default',
+)
+Request URL: /cakephp/Paises
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3498): Model->setSource('paise')
+#1 /var/www/cakephp/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/cakephp/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/cakephp/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/cakephp/app/Controller/PaisesController.php(25): PaginatorComponent->paginate()
+#5 [internal function]: PaisesController->index()
+#6 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PaisesController), Array)
+#7 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PaisesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-17 20:03:03 Error: [MissingActionException] Action AppController::vendors() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'vendors',
+)
+Request URL: /cakephp/app/vendors/PHPJasperXML
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-17 20:26:43 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/display.ctp',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 20:26:44 Error: [MissingViewException] View file "/var/www/cakephp/app/View/Pages/display.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/cakephp/app/View/Pages/display.ctp',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/cakephp/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-17 20:54:24 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:54:24 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:55:10 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:55:10 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:55:11 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:55:11 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:55:11 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:55:11 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:55:12 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:55:12 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:55:12 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:55:12 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:55:13 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:55:13 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:55:21 Error: Fatal Error (1): Call to undefined function phpjasperxml() in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:55:21 Error: [FatalErrorException] Call to undefined function phpjasperxml()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:56:15 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:56:15 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:56:16 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:56:16 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:56:17 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:56:17 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:56:17 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:56:17 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:56:17 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:56:17 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:56:18 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:56:18 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:56:50 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:56:50 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:56:53 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:56:53 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:56:54 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:56:54 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:56:54 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:56:54 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:57:04 Error: Fatal Error (1): Call to a member function teste() on a non-object in [/var/www/cakephp/app/Controller/PagesController.php, line 57]
+2014-03-17 20:57:04 Error: [FatalErrorException] Call to a member function teste() on a non-object
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/cakeph...', 57)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/cakeph...', 57, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/cakeph...', 57, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 20:57:11 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 20:57:11 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:00:04 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:00:04 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:00:05 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:00:05 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:00:05 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:00:05 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:00:06 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:00:06 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:05:14 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:05:14 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:05:15 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:05:15 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:05:16 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:05:16 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:05:17 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:05:17 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:05:42 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:05:42 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:06:26 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:06:26 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:06:27 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:06:27 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:06:29 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:06:29 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:06:30 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:06:30 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:06:30 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:06:30 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:06:48 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:06:48 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:06:58 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:06:58 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:07:04 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:07:04 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:09:57 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:09:57 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:10:13 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:10:13 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:10:14 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:10:14 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:10:14 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:10:14 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:12:16 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:12:16 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:13:42 Error: Fatal Error (1): Cannot redeclare class PHPJasperXML in [/var/www/cakephp/app/Vendor/PHPJasperXML/class/PHPJasperXML.inc.php, line 4]
+2014-03-17 21:13:42 Error: [FatalErrorException] Cannot redeclare class PHPJasperXML
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot redeclar...', '/var/www/cakeph...', 4)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot redeclar...', '/var/www/cakeph...', 4, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot redeclar...', '/var/www/cakeph...', 4, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:14:51 Error: Fatal Error (1): Class 'PHPJasperXML2' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:14:51 Error: [FatalErrorException] Class 'PHPJasperXML2' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:15:44 Error: Fatal Error (1): Class 'PHPJasperXML2' not found in [/var/www/cakephp/app/Controller/PagesController.php, line 55]
+2014-03-17 21:15:44 Error: [FatalErrorException] Class 'PHPJasperXML2' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 55, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:22:16 Error: [MissingPluginException] Plugin setting could not be found.
+Exception Attributes: array (
+  'plugin' => 'setting',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('setting')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('setting')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('php', 'setting')
+#3 [internal function]: App::load('Lib/PHPJasperXM...')
+#4 [internal function]: spl_autoload_call('Lib/PHPJasperXM...')
+#5 /var/www/cakephp/lib/Cake/Core/App.php(691): class_exists('Lib/PHPJasperXM...')
+#6 /var/www/cakephp/lib/Cake/Core/App.php(641): App::_loadClass('Lib/PHPJasperXM...', NULL, 'setting.php', 'setting.php', true)
+#7 /var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php(2): App::import('setting.php', 'Lib/PHPJasperXM...')
+#8 /var/www/cakephp/lib/Cake/Core/App.php(565): include('/var/www/cakeph...')
+#9 [internal function]: App::load('PHPJasperXML2')
+#10 /var/www/cakephp/app/Controller/PagesController.php(55): spl_autoload_call('PHPJasperXML2')
+#11 [internal function]: PagesController->display('home')
+#12 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#13 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#14 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-03-17 21:23:51 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 19]
+2014-03-17 21:23:51 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 19)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 19, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 19, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:24:30 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:24:30 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:24:31 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:24:31 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:24:45 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:24:45 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:24:52 Error: [MissingPluginException] Plugin Lib/PHPJasperXML2/class/PHPJasperXML could not be found.
+Exception Attributes: array (
+  'plugin' => 'Lib/PHPJasperXML2/class/PHPJasperXML',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('Lib/PHPJasperXM...')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('Lib/PHPJasperXM...')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('inc.php', 'Lib/PHPJasperXM...')
+#3 [internal function]: App::load('PHPJasperXML')
+#4 /var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php(20): spl_autoload_call('PHPJasperXML')
+#5 /var/www/cakephp/app/Controller/PagesController.php(55): PHPJasperXML2->PHPJasperXML2()
+#6 [internal function]: PagesController->display('home')
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-03-17 21:24:58 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:24:58 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:25:06 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:25:06 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:25:07 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:25:07 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:25:44 Error: [MissingPluginException] Plugin Lib/PHPJasperXML2/class/PHPJasperXML could not be found.
+Exception Attributes: array (
+  'plugin' => 'Lib/PHPJasperXML2/class/PHPJasperXML',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('Lib/PHPJasperXM...')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('Lib/PHPJasperXM...')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('inc.php', 'Lib/PHPJasperXM...')
+#3 [internal function]: App::load('PHPJasperXML')
+#4 /var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php(20): spl_autoload_call('PHPJasperXML')
+#5 /var/www/cakephp/app/Controller/PagesController.php(55): PHPJasperXML2->PHPJasperXML2()
+#6 [internal function]: PagesController->display('home')
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-03-17 21:26:10 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:26:10 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:27:23 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:27:23 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:27:30 Error: [MissingPluginException] Plugin Lib/PHPJasperXML2/class/PHPJasperXML could not be found.
+Exception Attributes: array (
+  'plugin' => 'Lib/PHPJasperXML2/class/PHPJasperXML',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Core/App.php(365): CakePlugin::path('Lib/PHPJasperXM...')
+#1 /var/www/cakephp/lib/Cake/Core/App.php(226): App::pluginPath('Lib/PHPJasperXM...')
+#2 /var/www/cakephp/lib/Cake/Core/App.php(547): App::path('inc.php', 'Lib/PHPJasperXM...')
+#3 [internal function]: App::load('PHPJasperXML')
+#4 /var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php(20): spl_autoload_call('PHPJasperXML')
+#5 /var/www/cakephp/app/Controller/PagesController.php(55): PHPJasperXML2->PHPJasperXML2()
+#6 [internal function]: PagesController->display('home')
+#7 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#8 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#9 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#10 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-03-17 21:27:35 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:27:35 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:27:48 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:27:48 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:27:49 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 20]
+2014-03-17 21:27:49 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 20, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:29:07 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:29:07 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:29:08 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:29:08 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:29:09 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:29:09 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:30:33 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:30:33 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:31:07 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:31:07 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:31:07 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:31:07 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:31:09 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:31:09 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:31:28 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:31:28 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:31:29 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:31:29 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:31:34 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:31:34 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:31:34 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 21]
+2014-03-17 21:31:34 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 21, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:32:50 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 23]
+2014-03-17 21:32:50 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:33:02 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 23]
+2014-03-17 21:33:02 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:33:03 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 23]
+2014-03-17 21:33:03 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:35:54 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:35:54 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:35:55 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:35:55 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:35:59 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:35:59 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:36:00 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:36:00 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:36:06 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:36:06 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:36:23 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:36:23 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:36:24 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:36:24 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:38:05 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:38:05 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:38:24 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:38:24 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:38:25 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:38:25 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:38:25 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:38:25 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:38:25 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:38:25 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:39:25 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:39:25 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:39:36 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:39:36 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:39:36 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:39:36 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:39:45 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 25]
+2014-03-17 21:39:45 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 25, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:40:18 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:40:18 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:40:21 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:40:21 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:40:26 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:40:26 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:40:55 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:40:55 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:40:56 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:40:56 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:50 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:50 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:51 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:51 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:52 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:52 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:52 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:52 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:52 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:52 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:52 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:52 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:52 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:52 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:53 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:53 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:53 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:53 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:53 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:53 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:53 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:53 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:53 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:53 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:54 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:54 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:54 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:54 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:54 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:54 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:54 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:54 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:54 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:54 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:54 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:54 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:55 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:55 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:55 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:55 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:41:55 Error: Fatal Error (1): Class 'PHPJasperXML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 27]
+2014-03-17 21:41:55 Error: [FatalErrorException] Class 'PHPJasperXML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPJaspe...', '/var/www/cakeph...', 27, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 21:57:17 Error: Fatal Error (1): Function name must be a string in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 13]
+2014-03-17 21:57:17 Error: [FatalErrorException] Function name must be a string
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Function name m...', '/var/www/cakeph...', 13)
+#1 [internal function]: ErrorHandler::handleError(1, 'Function name m...', '/var/www/cakeph...', 13, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Function name m...', '/var/www/cakeph...', 13, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:08:05 Error: Fatal Error (4): syntax error, unexpected 'version' (T_STRING) in [/var/www/cakephp/app/Vendor/PHPJasperXML/sample5.jrxml, line 1]
+2014-03-17 22:08:05 Error: [FatalErrorException] syntax error, unexpected 'version' (T_STRING)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 1)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 1, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 1, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:12:20 Error: Fatal Error (1): Class 'Xml' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 16]
+2014-03-17 22:12:20 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 16, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', '/var/www/cakeph...', 16, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:12:21 Error: Fatal Error (1): Class 'Xml' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 16]
+2014-03-17 22:12:21 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 16, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', '/var/www/cakeph...', 16, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:12:21 Error: Fatal Error (1): Class 'Xml' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 16]
+2014-03-17 22:12:21 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 16, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', '/var/www/cakeph...', 16, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:12:22 Error: Fatal Error (1): Class 'Xml' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 16]
+2014-03-17 22:12:22 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 16, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', '/var/www/cakeph...', 16, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:14:15 Error: Fatal Error (1): Class 'XML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 18]
+2014-03-17 22:14:15 Error: [FatalErrorException] Class 'XML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'XML' not...', '/var/www/cakeph...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'XML' not...', '/var/www/cakeph...', 18, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'XML' not...', '/var/www/cakeph...', 18, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:14:16 Error: Fatal Error (1): Class 'XML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 18]
+2014-03-17 22:14:16 Error: [FatalErrorException] Class 'XML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'XML' not...', '/var/www/cakeph...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'XML' not...', '/var/www/cakeph...', 18, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'XML' not...', '/var/www/cakeph...', 18, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:14:16 Error: Fatal Error (1): Class 'XML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 18]
+2014-03-17 22:14:16 Error: [FatalErrorException] Class 'XML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'XML' not...', '/var/www/cakeph...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'XML' not...', '/var/www/cakeph...', 18, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'XML' not...', '/var/www/cakeph...', 18, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:14:23 Error: Fatal Error (1): Class 'Xml' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 18]
+2014-03-17 22:14:23 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 18, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', '/var/www/cakeph...', 18, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:14:24 Error: Fatal Error (1): Class 'Xml' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 18]
+2014-03-17 22:14:24 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 18)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 18, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', '/var/www/cakeph...', 18, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:22:47 Error: Fatal Error (1): Class 'XML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 23]
+2014-03-17 22:22:47 Error: [FatalErrorException] Class 'XML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'XML' not...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'XML' not...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'XML' not...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:22:47 Error: Fatal Error (1): Class 'XML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 23]
+2014-03-17 22:22:47 Error: [FatalErrorException] Class 'XML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'XML' not...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'XML' not...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'XML' not...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:22:47 Error: Fatal Error (1): Class 'XML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 23]
+2014-03-17 22:22:47 Error: [FatalErrorException] Class 'XML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'XML' not...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'XML' not...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'XML' not...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:23:56 Error: Fatal Error (1): Class 'XML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 23]
+2014-03-17 22:23:56 Error: [FatalErrorException] Class 'XML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'XML' not...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'XML' not...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'XML' not...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:23:57 Error: Fatal Error (1): Class 'XML' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 23]
+2014-03-17 22:23:57 Error: [FatalErrorException] Class 'XML' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'XML' not...', '/var/www/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'XML' not...', '/var/www/cakeph...', 23, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'XML' not...', '/var/www/cakeph...', 23, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:32:34 Error: [MissingActionException] Action AppController::vendors() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'vendors',
+)
+Request URL: /cakephp/app/vendors/PHPJasperXML
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-17 22:32:38 Error: [MissingActionException] Action AppController::vendors() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'vendors',
+)
+Request URL: /cakephp/app/vendors/PHPJasperXML
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-17 22:32:39 Error: [MissingActionException] Action AppController::vendors() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'vendors',
+)
+Request URL: /cakephp/app/vendors/PHPJasperXML
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-17 22:37:22 Error: Fatal Error (1): Class 'Xml' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 17]
+2014-03-17 22:37:22 Error: [FatalErrorException] Class 'Xml' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Xml' not...', '/var/www/cakeph...', 17, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Xml' not...', '/var/www/cakeph...', 17, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:51:00 Error: Fatal Error (1): Class 'DATABASE_CONFIG' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:51:00 Error: [FatalErrorException] Class 'DATABASE_CONFIG' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'DATABASE...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DATABASE...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'DATABASE...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:51:01 Error: Fatal Error (1): Class 'DATABASE_CONFIG' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:51:01 Error: [FatalErrorException] Class 'DATABASE_CONFIG' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'DATABASE...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DATABASE...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'DATABASE...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:51:01 Error: Fatal Error (1): Class 'DATABASE_CONFIG' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:51:01 Error: [FatalErrorException] Class 'DATABASE_CONFIG' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'DATABASE...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'DATABASE...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'DATABASE...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:51:15 Error: Fatal Error (1): Class 'database' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:51:15 Error: [FatalErrorException] Class 'database' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'database...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'database...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'database...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:51:15 Error: Fatal Error (1): Class 'database' not found in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:51:15 Error: [FatalErrorException] Class 'database' not found
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'database...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'database...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'database...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:52:09 Error: Fatal Error (1): Call to undefined method PHPJasperXML2::getDataSource() in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:52:09 Error: [FatalErrorException] Call to undefined method PHPJasperXML2::getDataSource()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:52:09 Error: Fatal Error (1): Call to undefined method PHPJasperXML2::getDataSource() in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:52:09 Error: [FatalErrorException] Call to undefined method PHPJasperXML2::getDataSource()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:52:10 Error: Fatal Error (1): Call to undefined method PHPJasperXML2::getDataSource() in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:52:10 Error: [FatalErrorException] Call to undefined method PHPJasperXML2::getDataSource()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:52:48 Error: Fatal Error (1): Call to undefined method PHPJasperXML2::getDataSource() in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:52:48 Error: [FatalErrorException] Call to undefined method PHPJasperXML2::getDataSource()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:52:48 Error: Fatal Error (1): Call to undefined method PHPJasperXML2::getDataSource() in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:52:48 Error: [FatalErrorException] Call to undefined method PHPJasperXML2::getDataSource()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:52:50 Error: Fatal Error (1): Call to undefined method PHPJasperXML2::getDataSource() in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 10]
+2014-03-17 22:52:50 Error: [FatalErrorException] Call to undefined method PHPJasperXML2::getDataSource()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 10)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 10, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:53:02 Error: [MissingTableException] Table  for model  was not found in datasource default.
+Exception Attributes: array (
+  'table' => '',
+  'class' => NULL,
+  'ds' => 'default',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3498): Model->setSource(NULL)
+#1 /var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php(10): Model->getDataSource()
+#2 /var/www/cakephp/app/Controller/PagesController.php(55): PHPJasperXML2->PHPJasperXML2()
+#3 [internal function]: PagesController->display('home')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-03-17 22:53:05 Error: [MissingTableException] Table  for model  was not found in datasource default.
+Exception Attributes: array (
+  'table' => '',
+  'class' => NULL,
+  'ds' => 'default',
+)
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Model/Model.php(3498): Model->setSource(NULL)
+#1 /var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php(10): Model->getDataSource()
+#2 /var/www/cakephp/app/Controller/PagesController.php(55): PHPJasperXML2->PHPJasperXML2()
+#3 [internal function]: PagesController->display('home')
+#4 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-03-17 22:58:30 Error: Fatal Error (1): Call to undefined function loadDataSource() in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 11]
+2014-03-17 22:58:30 Error: [FatalErrorException] Call to undefined function loadDataSource()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 11, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 11, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 22:58:31 Error: Fatal Error (1): Call to undefined function loadDataSource() in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 11]
+2014-03-17 22:58:31 Error: [FatalErrorException] Call to undefined function loadDataSource()
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/cakeph...', 11)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/cakeph...', 11, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/cakeph...', 11, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 23:00:57 Error: Fatal Error (1): Cannot use object of type Mysql as array in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 12]
+2014-03-17 23:00:57 Error: [FatalErrorException] Cannot use object of type Mysql as array
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/cakeph...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/cakeph...', 12, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/cakeph...', 12, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 23:01:07 Error: Fatal Error (1): Cannot use object of type Mysql as array in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 12]
+2014-03-17 23:01:07 Error: [FatalErrorException] Cannot use object of type Mysql as array
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/cakeph...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/cakeph...', 12, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/cakeph...', 12, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 23:07:15 Error: Fatal Error (4): syntax error, unexpected ',' in [/var/www/cakephp/app/Vendor/PHPJasperXML/PHPJasperXML2.php, line 17]
+2014-03-17 23:07:15 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/cakeph...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/cakeph...', 17, Array)
+#2 /var/www/cakephp/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/cakeph...', 17, Array)
+#3 /var/www/cakephp/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-17 23:34:13 Error: [NotFoundException] Relatorio inexistente
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/Controller/PagesController.php(55): PHPJasperXML2->PHPJasperXML2('teste', 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-03-18 00:25:18 Error: [NotFoundException] Relatorio inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}
+2014-03-18 00:26:05 Error: [NotFoundException] Relatorio inexistente
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#7 {main}
+2014-03-18 00:26:07 Error: [NotFoundException] Relatorio inexistente
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#7 {main}
+2014-03-18 00:26:07 Error: [NotFoundException] Relatorio inexistente
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#7 {main}
+2014-03-18 00:26:08 Error: [NotFoundException] Relatorio inexistente
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#7 {main}
+2014-03-18 00:26:08 Error: [NotFoundException] Relatorio inexistente
+Request URL: /cakephp/
+Stack Trace:
+#0 /var/www/cakephp/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/cakephp/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/cakephp/index.php(41): require('/var/www/cakeph...')
+#7 {main}
+2014-03-18 00:27:53 Error: [NotFoundException] Relatorio inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}
+2014-03-18 00:28:51 Error: [NotFoundException] Relatorio inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}
+2014-03-18 00:29:26 Error: [NotFoundException] Relatorio inexistente
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(55): ReportToPDF->ReportToPDF(Array, 'rpt1.jrxml')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/PHPJasperXML/index.php(41): require('/var/www/PHPJas...')
+#7 {main}
