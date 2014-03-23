@@ -28,23 +28,7 @@ class PHPJasperXML {
     public $arraysqltable=array();
 	private $report_count=0;		//### New declaration (variable exists in original too)
 	private $group_count = array(); //### New declaration
-
-	/*************** by fred ***********************/
-	protected $footerbandheight;
-	protected $columnfooterbandheight;
-	protected $global_pointer;
-	protected $arrayVariable;
-	protected $angle;	    
-	protected $hideheader;    
-	protected $arraybackground;
-	protected $arraypageHeader;	
-	protected $headerbandheight;
-	protected $orititleheight;
-	protected $arraycolumnFooter;
-	protected $pageFooter;
-	
-    /**************************************/
-    public $generatestatus=false;
+        public $generatestatus=false;
     
     public function PHPJasperXML($lang="en",$pdflib="TCPDF") {
         $this->lang=$lang;
@@ -52,8 +36,8 @@ class PHPJasperXML {
         
         $this->pdflib=$pdflib;
         if($this->fontdir=="")
-        $this->fontdir= "../Vendor/PHPJasperXML/class/tcpdf/fonts/";
-        //$this->fontdir= dirname(__FILE__)."/tcpdf/fonts"; //antigo
+        //$this->fontdir= dirname(__FILE__)."/tcpdf/fonts";
+        $this->fontdir= "../Vendor/PHPJasperXML/class/tcpdf/fonts";
     }
     
     public function setErrorReport($error_report=0){
@@ -86,7 +70,7 @@ class PHPJasperXML {
             } else {
                 return true;
             }
-            return true;
+            //return true;
         }elseif($cndriver=="psql") {
             global $pgport;
             if($pgport=="" || $pgport==0)
@@ -228,7 +212,7 @@ class PHPJasperXML {
                     }
                     
                     $this->y_axis=$this->y_axis+$out->band["height"];	//after handle , then adjust y axis
-                    $this->detailallowtill=$this->arrayPageSetting["pageHeight"]-$this->footerbandheight-$this->arrayPageSetting["bottomMargin"]-$this->columnfooterbandheight;
+                        $this->detailallowtill=$this->arrayPageSetting["pageHeight"]-$this->footerbandheight-$this->arrayPageSetting["bottomMargin"]-$this->columnfooterbandheight;
 
                           
                     break;
@@ -652,7 +636,7 @@ class PHPJasperXML {
 $data->hyperlinkReferenceExpression=$this->analyse_expression($data->hyperlinkReferenceExpression);
 $data->hyperlinkReferenceExpression=trim(str_replace(array(" ",'"'),"",$data->hyperlinkReferenceExpression));
  
-        switch($data['scaleImage']) {
+        switch($data[scaleImage]) {
             case "FillFrame":
                 $this->pointer[]=array("type"=>"Image","path"=>$imagepath,"x"=>$data->reportElement["x"]+0,"y"=>$data->reportElement["y"]+0,"width"=>$data->reportElement["width"]+0,
                         "height"=>$data->reportElement["height"]+0,"imgtype"=>$imagetype,"link"=>$data->hyperlinkReferenceExpression,
@@ -1778,22 +1762,19 @@ $font=$data->textElement->font["fontName"];
                 
 
             
-                // include dirname(__FILE__)."/ExportXLS.inc.php"; //antigo
-                include "../Vendor/PHPJasperXML/class/ExportXLS.php";
+                 include dirname(__FILE__)."/ExportXLS.inc.php";
                 $xls= new ExportXLS($this,$filename, 'Excel5',$out_method);
                 die;
 
 
             }elseif($this->pdflib == 'CSV'){
                 
-                 //include dirname(__FILE__)."/ExportXLS.inc.php"; //antigo
-                 include "../Vendor/PHPJasperXML/class/ExportXLS.php";
+                 include dirname(__FILE__)."/ExportXLS.inc.php";
                 $xls= new ExportXLS($this,$filename, 'CSV',$out_method);
                 die;
             }elseif($this->pdflib == 'XLST' || $this->pdflib == 'XLSX'){
                 
-                //include dirname(__FILE__)."/ExportXLS.inc.php"; antigo
-                include "../Vendor/PHPJasperXML/class/ExportXLS.php";
+                include dirname(__FILE__)."/ExportXLS.inc.php";
                 $xls= new ExportXLS($this,$filename, 'Excel2007',$out_method);
                 die;
             }
@@ -2043,8 +2024,7 @@ public function showLineChart($data,$y_axis){
 
     if($pchartfolder=="")
     	$pchartfolder="../Vendor/PHPJasperXML/class/pchart2";
-        
-//echo "$pchartfolder/class/pData.class.php";die;
+		//echo "$pchartfolder/class/pData.class.php";die;
 
         include_once("$pchartfolder/class/pData.class.php");
         include_once("$pchartfolder/class/pDraw.class.php");
@@ -2052,7 +2032,7 @@ public function showLineChart($data,$y_axis){
 
     if($tmpchartfolder=="")
          $tmpchartfolder =$pchartfolder."/cache";
-         //$tmpchartfolder=$pchartfolder."/cache";
+         //$tmpchartfolder=$pchartfolder."/cache"; antigo
 
      $w=$data['width']+0;
      $h=$data['height']+0;
@@ -4875,6 +4855,7 @@ foreach($this->arrayVariable as $name=>$value){
                $PHPJasperXMLSubReport->arrayParameter=$arrdata;
                $PHPJasperXMLSubReport->debugsql=$this->debugsql;
                $PHPJasperXMLSubReport->xml_dismantle($srxml);
+               
                
               $this->passAllArrayDatatoSubReport($PHPJasperXMLSubReport,$d,$current_y,$arrdata);
                
