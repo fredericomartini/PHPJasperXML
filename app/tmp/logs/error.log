@@ -2627,3 +2627,2152 @@ Stack Trace:
 #3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
 #4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-03-22 12:00:49 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:13:05 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:13:21 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:13:27 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:13:32 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:17:16 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:17:17 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:18:06 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:56:26 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:56:26 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:56:26 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:56:26 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:56:40 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:56:55 Error: Fatal Error (4): syntax error, unexpected '}' in [/var/www/PHPJasperXML/app/Controller/CidadesController.php, line 114]
+2014-03-22 12:56:55 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/PHPJas...', 114)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/PHPJas...', 114, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/PHPJas...', 114, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-22 12:57:33 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 12:58:53 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 13:35:58 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 13:39:54 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 14:13:14 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 14:13:44 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/CidadesController.php, line 113]
+2014-03-22 14:13:44 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 113)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 113, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 113, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-22 14:13:46 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/CidadesController.php, line 113]
+2014-03-22 14:13:46 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 113)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 113, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 113, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-22 14:13:56 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 14:17:22 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 14:19:19 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 14:19:28 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 14:19:33 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 14:21:11 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 14:21:18 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/2
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 14:21:23 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/8
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 16:42:57 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 16:42:58 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 16:43:50 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 16:44:05 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 16:47:44 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 16:48:20 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 16:54:16 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 16:54:24 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:05:59 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:10:30 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:11:23 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:11:38 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:22:52 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:23:20 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:23:27 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:23:41 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:24:28 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:24:37 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:24:45 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:31:06 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:38:00 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:38:54 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 17:51:57 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 23:23:29 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 23:26:58 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 23:47:47 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 23:49:52 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-22 23:50:18 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:06:52 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:08:13 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:08:17 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:10:01 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:10:08 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:11:07 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:14:52 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:15:15 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:15:36 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:15:58 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:16:36 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 00:17:10 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 01:34:58 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 01:35:01 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 01:35:55 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 01:38:45 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/3
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 01:41:14 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 01:50:25 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 01:54:43 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 01:55:36 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 01:56:00 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 01:57:31 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:06:43 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:06:58 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:07:40 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:12:30 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:15:02 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:15:18 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:15:40 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:16:14 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:27:40 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:29:27 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:31:19 Error: [NotFoundException] Relatório inexistente
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/CidadesController.php(113): ReportToPDF::generateReport('', 'report1_subrepo...', '', 2)
+#1 [internal function]: CidadesController->imprimirRelatorio('1')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-03-23 02:31:20 Error: [NotFoundException] Relatório inexistente
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/CidadesController.php(113): ReportToPDF::generateReport('', 'report1_subrepo...', '', 2)
+#1 [internal function]: CidadesController->imprimirRelatorio('1')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-03-23 02:31:54 Error: [NotFoundException] Relatório inexistente
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/CidadesController.php(113): ReportToPDF::generateReport('', 'report2_subrepo...', '', 2)
+#1 [internal function]: CidadesController->imprimirRelatorio('1')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-03-23 02:31:55 Error: [NotFoundException] Relatório inexistente
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/CidadesController.php(113): ReportToPDF::generateReport('', 'report2_subrepo...', '', 2)
+#1 [internal function]: CidadesController->imprimirRelatorio('1')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-03-23 02:32:14 Error: [NotFoundException] Relatório inexistente
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/CidadesController.php(113): ReportToPDF::generateReport('', 'rpt2_subreport', '', 2)
+#1 [internal function]: CidadesController->imprimirRelatorio('1')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-03-23 02:32:16 Error: [NotFoundException] Relatório inexistente
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/CidadesController.php(113): ReportToPDF::generateReport('', 'rpt2_subreport', '', 2)
+#1 [internal function]: CidadesController->imprimirRelatorio('1')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-03-23 02:32:16 Error: [NotFoundException] Relatório inexistente
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/CidadesController.php(113): ReportToPDF::generateReport('', 'rpt2_subreport', '', 2)
+#1 [internal function]: CidadesController->imprimirRelatorio('1')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-03-23 02:32:24 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 02:39:37 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 03:25:50 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 12:46:49 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 12:56:30 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 12:56:42 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 12:58:49 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 13:07:26 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 13:09:26 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 13:10:10 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 13:13:52 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 13:14:00 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 13:19:22 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 13:19:46 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 23:44:10 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 23:44:53 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-23 23:47:33 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index('home')
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-23 23:47:40 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-24 00:03:36 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-24 12:57:14 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index('home')
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-24 19:22:56 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index('home')
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-24 19:40:54 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index('home')
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-24 19:51:34 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index('home')
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-24 20:00:16 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-24 20:03:06 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-24 20:05:58 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-24 20:08:57 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-24 20:09:21 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Cidades/imprimir_relatorio.ctp',
+)
+Request URL: /PHPJasperXML/Cidades/imprimirRelatorio/1
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName(NULL)
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-03-24 20:24:08 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index('home')
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-24 20:24:08 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index('home')
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-24 20:24:09 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index('home')
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-24 20:24:12 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/Cidades
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index()
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-24 20:24:16 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/Cidades
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index()
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-24 20:26:16 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /PHPJasperXML/Pages
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-24 20:26:23 Error: [MissingActionException] Action PagesController::home() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'home',
+)
+Request URL: /PHPJasperXML/Pages/home
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-24 20:26:42 Error: [MissingViewException] View file "/var/www/PHPJasperXML/app/View/Pages/.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/PHPJasperXML/app/View/Pages/.ctp',
+)
+Request URL: /PHPJasperXML/Pages/display
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/View/View.php(463): View->_getViewFileName('')
+#1 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(952): View->render('', NULL)
+#2 /var/www/PHPJasperXML/app/Controller/PagesController.php(53): Controller->render('')
+#3 [internal function]: PagesController->display()
+#4 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-03-24 20:26:46 Error: [MissingTableException] Table cidade for model Cidade was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'cidade',
+  'class' => 'Cidade',
+  'ds' => 'default',
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(3498): Model->setSource('cidade')
+#1 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2902): Model->getDataSource()
+#2 /var/www/PHPJasperXML/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /var/www/PHPJasperXML/app/Controller/CidadesController.php(30): PaginatorComponent->paginate()
+#5 [internal function]: CidadesController->index('home')
+#6 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#8 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-03-24 20:28:12 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'bd_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:28:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'bd_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:28:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'bd_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:28:47 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'db_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:28:48 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'db_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:28:53 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'phpjasperxml 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:29:20 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'bd_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:29:21 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'bd_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:29:21 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'bd_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:29:21 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'bd_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:29:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'bd_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 20:29:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1102] Incorrect database name \'bd_teste 	\'',
+  'enabled' => true,
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/PHPJasperXML/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/PHPJasperXML/app/Vendor/PHPJasperXML/ReportToPDF.php(98): ConnectionManager::getDataSource('default')
+#3 /var/www/PHPJasperXML/app/Controller/CidadesController.php(38): ReportToPDF::generateReport('', 'sample6.jrxml', '', 2)
+#4 [internal function]: CidadesController->index('home')
+#5 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(CidadesController), Array)
+#6 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(CidadesController), Object(CakeRequest), Object(CakeResponse))
+#8 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-03-24 22:05:22 Error: [MissingActionException] Action PagesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'index',
+)
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-03-24 22:05:46 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:05:46 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:09 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:09 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:10 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:10 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:10 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:10 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:10 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:10 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:10 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:10 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:10 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:10 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:10 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:10 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-24 22:06:11 Error: Fatal Error (1): Class 'ReportToPDF' not found in [/var/www/PHPJasperXML/app/Controller/PagesController.php, line 55]
+2014-03-24 22:06:11 Error: [FatalErrorException] Class 'ReportToPDF' not found
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#2 /var/www/PHPJasperXML/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'ReportTo...', '/var/www/PHPJas...', 55, Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-03-25 00:04:43 Error: [MissingControllerException] Controller class ClassController could not be found.
+Exception Attributes: array (
+  'class' => 'ClassController',
+  'plugin' => NULL,
+)
+Request URL: /PHPJasperXML/class/tcpdf/examples/index.php
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-25 00:04:59 Error: [MissingControllerException] Controller class ClassController could not be found.
+Exception Attributes: array (
+  'class' => 'ClassController',
+  'plugin' => NULL,
+)
+Request URL: /PHPJasperXML/class/tcpdf/examples/index.php
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-03-25 00:20:32 Error: [NotFoundException] O novo do relatório gerado deve ser entre 'aspas' 
+Request URL: /PHPJasperXML/
+Stack Trace:
+#0 /var/www/PHPJasperXML/app/Controller/PagesController.php(56): ReportToPDF::generateReport('', 'lotacao_potreir...', '', 'teste')
+#1 [internal function]: PagesController->display('home')
+#2 /var/www/PHPJasperXML/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#3 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#4 /var/www/PHPJasperXML/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#5 /var/www/PHPJasperXML/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}

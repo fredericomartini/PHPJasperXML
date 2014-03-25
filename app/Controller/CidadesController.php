@@ -26,15 +26,17 @@ class CidadesController extends AppController {
 
 	
 	public function index() {
-		$this->Cidade->recursive = 0;
-		$this->set('cidades', $this->Paginator->paginate());
+		//$this->Cidade->recursive = 0;
+		//$this->set('cidades', $this->Paginator->paginate());
  		//ReportToPDF::generateReport(array('ESTADO_ID'=> 1), 'rpt1.jrxml','',2);
  		
  		//$this->Report   = new ReportToPDF();
  		
  		//debug($this->Report);
  		//$this->Report->generateReport(array('ESTADO_ID'=>1), 'rpt1.jrxml','',2);
-		
+	 	//ReportToPDF::generateReport('', 'sample6.jrxml','',2);
+	 	ReportToPDF::generateReport('', 'sample6.jrxml');
+	 	
 	}
 
 /**
@@ -109,8 +111,8 @@ class CidadesController extends AppController {
 	
 	public function imprimirRelatorio($id = null)
 	{
-		if(isset($id) && $id !='')
-			ReportToPDF::generateReport(array('CIDADE_ID'=> $id), 'rpt1.jrxml');
+		//if(isset($id) && $id !='')
+			ReportToPDF::generateReport('', 'pesagem_lotes.jrxml');
 	}
 }
 

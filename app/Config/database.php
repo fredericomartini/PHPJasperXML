@@ -67,7 +67,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'mysql',
-		'database' => 'bd_teste',
+		'database' => 'sisagro_pecuaria',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

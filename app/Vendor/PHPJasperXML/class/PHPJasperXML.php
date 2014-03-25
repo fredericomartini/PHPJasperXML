@@ -70,7 +70,6 @@ class PHPJasperXML {
             } else {
                 return true;
             }
-            //return true;
         }elseif($cndriver=="psql") {
             global $pgport;
             if($pgport=="" || $pgport==0)
@@ -2024,7 +2023,8 @@ public function showLineChart($data,$y_axis){
 
     if($pchartfolder=="")
     	$pchartfolder="../Vendor/PHPJasperXML/class/pchart2";
-		//echo "$pchartfolder/class/pData.class.php";die;
+        
+//echo "$pchartfolder/class/pData.class.php";die;
 
         include_once("$pchartfolder/class/pData.class.php");
         include_once("$pchartfolder/class/pDraw.class.php");
@@ -2032,7 +2032,7 @@ public function showLineChart($data,$y_axis){
 
     if($tmpchartfolder=="")
          $tmpchartfolder =$pchartfolder."/cache";
-         //$tmpchartfolder=$pchartfolder."/cache"; antigo
+         //$tmpchartfolder=$pchartfolder."/cache";
 
      $w=$data['width']+0;
      $h=$data['height']+0;

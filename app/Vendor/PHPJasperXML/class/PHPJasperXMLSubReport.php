@@ -24,7 +24,8 @@ class PHPJasperXMLSubReport{
 	private $xoffset=0;
     public function PHPJasperXMLSubReport($lang="en",$pdflib="FPDF",$xoffset=0){
         $this->lang=$lang;
-        error_reporting(1);
+        error_reporting(0);
+        
         $this->pdflib=$pdflib;
         $this->xoffset=$xoffset;
     }
@@ -36,7 +37,6 @@ class PHPJasperXMLSubReport{
     $this->db_or_dsn_name=$db_or_dsn_name;
     $this->cndriver=$cndriver;
         if($cndriver=="mysql") {
-
             if(!$this->con) {
                 $this->myconn = @mysql_connect($db_host,$db_user,$db_pass);
                 if($this->myconn) {
@@ -54,7 +54,7 @@ class PHPJasperXMLSubReport{
             } else {
                 return true;
             }
-            return true;
+            //return true;
         }elseif($cndriver=="psql") {
             global $pgport;
             if($pgport=="" || $pgport==0)
@@ -288,7 +288,7 @@ class PHPJasperXMLSubReport{
 //                    $this->element_pie3DChart($out);
 //                    break;
 //                case "lineChart":
-//                    $this->element_lineChart($out);
+//                   $this->element_lineChart($out);
 //                    break;
 //                case "stackedAreaChart":
 //                    $this->element_areaChart($out,'stackedAreaChart');
@@ -1342,7 +1342,7 @@ public function showLineChart($data,$y_axis){
 
 
     if($pchartfolder=="")
-        $pchartfolder="./pchart2";
+        $pchartfolder="../Vendor/PHPJasperXML/class/pchart2";
 //echo "$pchartfolder/class/pData.class.php";die;
 
         include_once("$pchartfolder/class/pData.class.php");
@@ -1652,7 +1652,7 @@ public function showBarChart($data,$y_axis,$type='barChart'){
 
 
     if($pchartfolder=="")
-        $pchartfolder="./pchart2";
+        $pchartfolder="../Vendor/PHPJasperXML/class/pchart2";
 //echo "$pchartfolder/class/pData.class.php";die;
 
         include_once("$pchartfolder/class/pData.class.php");
@@ -1963,7 +1963,7 @@ public function showAreaChart($data,$y_axis,$type){
 
 
     if($pchartfolder=="")
-        $pchartfolder="./pchart2";
+        $pchartfolder="../Vendor/PHPJasperXML/class/pchart2";
 //echo "$pchartfolder/class/pData.class.php";die;
 
         include_once("$pchartfolder/class/pData.class.php");
