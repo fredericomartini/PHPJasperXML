@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report2" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d8faaf22-e5df-4c83-9adc-e7beb390d1cf">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[SELECT
+     lotes.`id` AS lotes_id,
+     lotes.`empresa_id` AS lotes_empresa_id,
+     lotes.`descricao` AS lotes_descricao,
+     lotes.`ativo` AS lotes_ativo,
+     lotes.`created` AS lotes_created,
+     lotes.`modified` AS lotes_modified,
+     lotes.`user_id` AS lotes_user_id,
+     categorialotes.`id` AS categorialotes_id,
+     categorialotes.`lote_id` AS categorialotes_lote_id,
+     categorialotes.`categoria_id` AS categorialotes_categoria_id,
+     categorialotes.`potreiro_id` AS categorialotes_potreiro_id,
+     categorialotes.`observacao` AS categorialotes_observacao,
+     pesagens.`id` AS pesagens_id,
+     pesagens.`categorialote_id` AS pesagens_categorialote_id,
+     pesagens.`dtpesagem` AS pesagens_dtpesagem,
+     pesagens.`peso` AS pesagens_peso,
+     pesagens.`created` AS pesagens_created,
+     pesagens.`modified` AS pesagens_modified,
+     pesagens.`user_id` AS pesagens_user_id,
+     pesagens.`empresa_id` AS pesagens_empresa_id,
+     pesagens.`observacao` AS pesagens_observacao,
+     empresas.`id` AS empresas_id,
+     empresas.`cdempmatriz` AS empresas_cdempmatriz,
+     empresas.`razaosocial` AS empresas_razaosocial,
+     empresas.`nomefantasia` AS empresas_nomefantasia,
+     empresas.`cnpj` AS empresas_cnpj,
+     empresas.`inscestadual` AS empresas_inscestadual,
+     empresas.`inscmunicipal` AS empresas_inscmunicipal,
+     empresas.`email` AS empresas_email,
+     empresas.`homepage` AS empresas_homepage,
+     empresas.`img_foto` AS empresas_img_foto,
+     empresas.`holding_id` AS empresas_holding_id,
+     empresas.`created` AS empresas_created,
+     empresas.`modified` AS empresas_modified,
+     empresas.`descricao` AS empresas_descricao,
+     empresas.`tipoimagem` AS empresas_tipoimagem
+FROM
+     `lotes` lotes INNER JOIN `categorialotes` categorialotes ON lotes.`id` = categorialotes.`lote_id`
+     INNER JOIN `pesagens` pesagens ON categorialotes.`id` = pesagens.`categorialote_id`
+     INNER JOIN `empresas` empresas ON lotes.`empresa_id` = empresas.`id`]]>
+	</queryString>
+	<field name="lotes_id" class="java.lang.Integer"/>
+	<field name="lotes_empresa_id" class="java.lang.Integer"/>
+	<field name="lotes_descricao" class="java.lang.String"/>
+	<field name="lotes_ativo" class="java.lang.String"/>
+	<field name="lotes_created" class="java.sql.Timestamp"/>
+	<field name="lotes_modified" class="java.sql.Timestamp"/>
+	<field name="lotes_user_id" class="java.lang.Integer"/>
+	<field name="categorialotes_id" class="java.lang.Integer"/>
+	<field name="categorialotes_lote_id" class="java.lang.Integer"/>
+	<field name="categorialotes_categoria_id" class="java.lang.Integer"/>
+	<field name="categorialotes_potreiro_id" class="java.lang.Integer"/>
+	<field name="categorialotes_observacao" class="java.lang.String"/>
+	<field name="pesagens_id" class="java.lang.Integer"/>
+	<field name="pesagens_categorialote_id" class="java.lang.Integer"/>
+	<field name="pesagens_dtpesagem" class="java.sql.Date"/>
+	<field name="pesagens_peso" class="java.math.BigDecimal"/>
+	<field name="pesagens_created" class="java.sql.Timestamp"/>
+	<field name="pesagens_modified" class="java.sql.Timestamp"/>
+	<field name="pesagens_user_id" class="java.lang.Integer"/>
+	<field name="pesagens_empresa_id" class="java.lang.Integer"/>
+	<field name="pesagens_observacao" class="java.lang.String"/>
+	<field name="empresas_id" class="java.lang.Integer"/>
+	<field name="empresas_cdempmatriz" class="java.lang.Integer"/>
+	<field name="empresas_razaosocial" class="java.lang.String"/>
+	<field name="empresas_nomefantasia" class="java.lang.String"/>
+	<field name="empresas_cnpj" class="java.lang.String"/>
+	<field name="empresas_inscestadual" class="java.lang.String"/>
+	<field name="empresas_inscmunicipal" class="java.lang.String"/>
+	<field name="empresas_email" class="java.lang.String"/>
+	<field name="empresas_homepage" class="java.lang.String"/>
+	<field name="empresas_img_foto" class="java.lang.String"/>
+	<field name="empresas_holding_id" class="java.lang.Integer"/>
+	<field name="empresas_created" class="java.sql.Timestamp"/>
+	<field name="empresas_modified" class="java.sql.Timestamp"/>
+	<field name="empresas_descricao" class="java.lang.String"/>
+	<field name="empresas_tipoimagem" class="java.lang.String"/>
+	<group name="teste" isStartNewPage="true">
+		<groupExpression><![CDATA[$F{lotes_descricao}]]></groupExpression>
+		<groupHeader>
+			<band height="23">
+				<staticText>
+					<reportElement x="455" y="0" width="100" height="20" uuid="471d77bc-f611-4d4a-b5d3-a77dedfcaa43"/>
+					<textElement>
+						<font isBold="true" isUnderline="false"/>
+					</textElement>
+					<text><![CDATA[Peso]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="0" width="100" height="20" uuid="459b9f04-e693-4f04-9337-7f3ba13c7c8f"/>
+					<textElement>
+						<font size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Lote]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="262" y="3" width="100" height="20" uuid="a8de2963-bea3-49ff-bcc7-66ce277cf397"/>
+					<textElement>
+						<font size="10" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Data]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="group_grafico">
+		<groupExpression><![CDATA[$F{pesagens_peso}]]></groupExpression>
+		<groupFooter>
+			<band height="95">
+				<lineChart>
+					<chart>
+						<reportElement x="0" y="0" width="555" height="93" uuid="1f95c62b-3bb6-4f10-a3b2-6c1e55ad2f08"/>
+						<chartTitle/>
+						<chartSubtitle/>
+						<chartLegend/>
+					</chart>
+					<categoryDataset>
+						<categorySeries>
+							<seriesExpression><![CDATA[$F{lotes_descricao}]]></seriesExpression>
+							<categoryExpression><![CDATA[$F{pesagens_dtpesagem}]]></categoryExpression>
+							<valueExpression><![CDATA[$F{pesagens_peso}]]></valueExpression>
+						</categorySeries>
+					</categoryDataset>
+					<linePlot>
+						<plot/>
+						<categoryAxisFormat>
+							<axisFormat/>
+						</categoryAxisFormat>
+						<valueAxisFormat>
+							<axisFormat/>
+						</valueAxisFormat>
+					</linePlot>
+				</lineChart>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="63" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="555" height="61" uuid="67e350a3-3997-4385-96a4-b37ef60597a9"/>
+				<textElement textAlignment="Center">
+					<font size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Pesagem de animais por lote]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="23" splitType="Stretch">
+			<textField>
+				<reportElement x="262" y="0" width="193" height="20" uuid="578297f4-8215-46df-9cba-482ee0f3dc24"/>
+				<textFieldExpression><![CDATA[$F{pesagens_dtpesagem}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="455" y="0" width="100" height="20" uuid="fa8dd56b-c7e1-4f0f-9dcc-bc6126a8bef1"/>
+				<textFieldExpression><![CDATA[$F{pesagens_peso}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="3" width="262" height="20" uuid="3297a92c-a5af-4076-a1e4-75eda1e7b178"/>
+				<textFieldExpression><![CDATA[$F{lotes_descricao}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="22" splitType="Stretch">
+			<staticText>
+				<reportElement x="400" y="0" width="155" height="20" uuid="db5a544b-973f-4fc5-b935-47116c6ecd2b"/>
+				<textElement textAlignment="Center">
+					<font isBold="true" isItalic="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Rodapé:]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

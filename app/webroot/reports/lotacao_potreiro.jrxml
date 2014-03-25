@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="lotacao_potreiro" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e2f212e0-9b56-4335-a062-41c28d9a36a1">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[SELECT
+     empresas.`id` AS empresas_id,
+     empresas.`cdempmatriz` AS empresas_cdempmatriz,
+     empresas.`razaosocial` AS empresas_razaosocial,
+     empresas.`nomefantasia` AS empresas_nomefantasia,
+     empresas.`cnpj` AS empresas_cnpj,
+     empresas.`inscestadual` AS empresas_inscestadual,
+     empresas.`inscmunicipal` AS empresas_inscmunicipal,
+     empresas.`email` AS empresas_email,
+     empresas.`homepage` AS empresas_homepage,
+     empresas.`img_foto` AS empresas_img_foto,
+     empresas.`holding_id` AS empresas_holding_id,
+     empresas.`created` AS empresas_created,
+     empresas.`modified` AS empresas_modified,
+     empresas.`descricao` AS empresas_descricao,
+     empresas.`tipoimagem` AS empresas_tipoimagem,
+     lotes.`id` AS lotes_id,
+     lotes.`empresa_id` AS lotes_empresa_id,
+     lotes.`descricao` AS lotes_descricao,
+     lotes.`ativo` AS lotes_ativo,
+     lotes.`created` AS lotes_created,
+     lotes.`modified` AS lotes_modified,
+     lotes.`user_id` AS lotes_user_id,
+     categorialotes.`id` AS categorialotes_id,
+     categorialotes.`lote_id` AS categorialotes_lote_id,
+     categorialotes.`categoria_id` AS categorialotes_categoria_id,
+     categorialotes.`potreiro_id` AS categorialotes_potreiro_id,
+     categorialotes.`observacao` AS categorialotes_observacao,
+     potreiros.`id` AS potreiros_id,
+     potreiros.`empresa_id` AS potreiros_empresa_id,
+     potreiros.`descricao` AS potreiros_descricao,
+     potreiros.`area_potreiro` AS potreiros_area_potreiro,
+     potreiros.`area_lavoura` AS potreiros_area_lavoura,
+     animallotes.`categorialote_id` AS animallotes_categorialote_id,
+     animallotes.`animai_id` AS animallotes_animai_id,
+     animais.`id` AS animais_id,
+     animais.`empresa_id` AS animais_empresa_id,
+     animais.`especie_id` AS animais_especie_id,
+     animais.`pelagen_id` AS animais_pelagen_id,
+     animais.`categoria_id` AS animais_categoria_id,
+     animais.`grausangue_id` AS animais_grausangue_id,
+     animais.`dtnasc` AS animais_dtnasc,
+     animais.`dtcomprado` AS animais_dtcomprado,
+     animais.`brinco` AS animais_brinco,
+     animais.`chipeletronico` AS animais_chipeletronico,
+     animais.`colareletronico` AS animais_colareletronico,
+     animais.`tatuagem` AS animais_tatuagem,
+     animais.`hbbsbb` AS animais_hbbsbb,
+     animais.`cor` AS animais_cor,
+     animais.`causabaixa_id` AS animais_causabaixa_id,
+     animais.`caracteristica` AS animais_caracteristica,
+     animais.`ativo` AS animais_ativo
+FROM
+     `empresas` empresas INNER JOIN `lotes` lotes ON empresas.`id` = lotes.`empresa_id`
+     INNER JOIN `categorialotes` categorialotes ON lotes.`id` = categorialotes.`lote_id`
+     INNER JOIN `potreiros` potreiros ON categorialotes.`potreiro_id` = potreiros.`id`
+     INNER JOIN `animallotes` animallotes ON categorialotes.`id` = animallotes.`categorialote_id`
+     INNER JOIN `animais` animais ON animallotes.`animai_id` = animais.`id`]]>
+	</queryString>
+	<field name="empresas_id" class="java.lang.Integer"/>
+	<field name="empresas_cdempmatriz" class="java.lang.Integer"/>
+	<field name="empresas_razaosocial" class="java.lang.String"/>
+	<field name="empresas_nomefantasia" class="java.lang.String"/>
+	<field name="empresas_cnpj" class="java.lang.String"/>
+	<field name="empresas_inscestadual" class="java.lang.String"/>
+	<field name="empresas_inscmunicipal" class="java.lang.String"/>
+	<field name="empresas_email" class="java.lang.String"/>
+	<field name="empresas_homepage" class="java.lang.String"/>
+	<field name="empresas_img_foto" class="java.lang.String"/>
+	<field name="empresas_holding_id" class="java.lang.Integer"/>
+	<field name="empresas_created" class="java.sql.Timestamp"/>
+	<field name="empresas_modified" class="java.sql.Timestamp"/>
+	<field name="empresas_descricao" class="java.lang.String"/>
+	<field name="empresas_tipoimagem" class="java.lang.String"/>
+	<field name="lotes_id" class="java.lang.Integer"/>
+	<field name="lotes_empresa_id" class="java.lang.Integer"/>
+	<field name="lotes_descricao" class="java.lang.String"/>
+	<field name="lotes_ativo" class="java.lang.String"/>
+	<field name="lotes_created" class="java.sql.Timestamp"/>
+	<field name="lotes_modified" class="java.sql.Timestamp"/>
+	<field name="lotes_user_id" class="java.lang.Integer"/>
+	<field name="categorialotes_id" class="java.lang.Integer"/>
+	<field name="categorialotes_lote_id" class="java.lang.Integer"/>
+	<field name="categorialotes_categoria_id" class="java.lang.Integer"/>
+	<field name="categorialotes_potreiro_id" class="java.lang.Integer"/>
+	<field name="categorialotes_observacao" class="java.lang.String"/>
+	<field name="potreiros_id" class="java.lang.Integer"/>
+	<field name="potreiros_empresa_id" class="java.lang.Integer"/>
+	<field name="potreiros_descricao" class="java.lang.String"/>
+	<field name="potreiros_area_potreiro" class="java.math.BigDecimal"/>
+	<field name="potreiros_area_lavoura" class="java.math.BigDecimal"/>
+	<field name="animallotes_categorialote_id" class="java.lang.Integer"/>
+	<field name="animallotes_animai_id" class="java.lang.Integer"/>
+	<field name="animais_id" class="java.lang.Integer"/>
+	<field name="animais_empresa_id" class="java.lang.Integer"/>
+	<field name="animais_especie_id" class="java.lang.Integer"/>
+	<field name="animais_pelagen_id" class="java.lang.Integer"/>
+	<field name="animais_categoria_id" class="java.lang.Integer"/>
+	<field name="animais_grausangue_id" class="java.lang.Integer"/>
+	<field name="animais_dtnasc" class="java.sql.Timestamp"/>
+	<field name="animais_dtcomprado" class="java.sql.Timestamp"/>
+	<field name="animais_brinco" class="java.lang.String"/>
+	<field name="animais_chipeletronico" class="java.lang.String"/>
+	<field name="animais_colareletronico" class="java.lang.String"/>
+	<field name="animais_tatuagem" class="java.lang.String"/>
+	<field name="animais_hbbsbb" class="java.lang.String"/>
+	<field name="animais_cor" class="java.lang.String"/>
+	<field name="animais_causabaixa_id" class="java.lang.Integer"/>
+	<field name="animais_caracteristica" class="java.lang.String"/>
+	<field name="animais_ativo" class="java.lang.String"/>
+	<group name="Lote">
+		<groupExpression><![CDATA[$F{lotes_id}]]></groupExpression>
+		<groupHeader>
+			<band height="60">
+				<staticText>
+					<reportElement x="16" y="8" width="40" height="20" uuid="b1b90589-70c1-4f6c-8ef5-94f68b3c1fd5"/>
+					<textElement>
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Lote:]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="56" y="8" width="200" height="20" uuid="0de775c0-46b4-46e4-97cb-7f9c97cb627e"/>
+					<textElement>
+						<font size="12" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{lotes_descricao}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="108" y="34" width="148" height="20" uuid="c3a2e4ed-6357-442a-8c5f-f21804a6f38a"/>
+					<textElement>
+						<font size="12" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{potreiros_descricao}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement x="321" y="34" width="100" height="20" uuid="cbe636cd-32d4-4f4b-9a8c-3d31857ae076"/>
+					<textFieldExpression><![CDATA[$F{potreiros_area_potreiro}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="16" y="33" width="92" height="20" uuid="b301941c-81fd-4083-a011-531e47690415"/>
+					<textElement>
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Potreiro:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="264" y="34" width="57" height="20" uuid="65ea6d12-6452-4238-a682-140bfa31cb97"/>
+					<textElement>
+						<font size="12" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Área]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="16">
+				<line>
+					<reportElement x="0" y="8" width="555" height="1" uuid="965cb8b5-52ff-4eb9-8ca2-91a182e95f7b"/>
+				</line>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="5" width="555" height="31" uuid="11169c2c-0602-4fe4-b915-29f92182c76e"/>
+				<textElement textAlignment="Center">
+					<font size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lotação de animais por potreiro]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="31" splitType="Stretch">
+			<staticText>
+				<reportElement x="186" y="8" width="283" height="20" uuid="7fb58db8-18e2-4d2d-a76c-a727ee89d773"/>
+				<textElement>
+					<font size="12" isBold="false" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Identificação do animal]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="29" splitType="Stretch">
+			<rectangle>
+				<reportElement x="-19" y="2" width="593" height="25" forecolor="#FFFFFF" backcolor="#CCCCFF" uuid="fff941c6-fe04-43c8-b5ca-06a5f4ea36e9">
+					<printWhenExpression><![CDATA[new Boolean(($V{COLUMN_COUNT}.intValue() % 2) == 0)]]></printWhenExpression>
+				</reportElement>
+			</rectangle>
+			<textField>
+				<reportElement x="186" y="5" width="283" height="20" uuid="d4aea942-4ca8-4e8e-89f8-a5960627d318"/>
+				<textFieldExpression><![CDATA["B:  " + $F{animais_brinco} + "  T:  " + $F{animais_tatuagem} + "  HBB/SBB:  " + $F{animais_hbbsbb}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="16" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="16" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="598" splitType="Stretch">
+			<pieChart>
+				<chart>
+					<reportElement x="16" y="11" width="519" height="267" uuid="0b5a4134-6a98-429c-b5c8-76d453d0effe"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<pieDataset>
+					<keyExpression><![CDATA[$F{potreiros_descricao} + " - " + "Área: " + $F{potreiros_area_potreiro}]]></keyExpression>
+					<valueExpression><![CDATA[$V{Lote_COUNT}]]></valueExpression>
+				</pieDataset>
+				<piePlot>
+					<plot/>
+					<itemLabel/>
+				</piePlot>
+			</pieChart>
+			<pieChart>
+				<chart>
+					<reportElement x="16" y="327" width="519" height="267" uuid="9716da99-9126-4e9c-883f-fb13650c084a"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<pieDataset>
+					<keyExpression><![CDATA[$F{potreiros_descricao} + " - " + "Área: " + $F{potreiros_area_potreiro}]]></keyExpression>
+					<valueExpression><![CDATA[$V{Lote_COUNT}]]></valueExpression>
+					<labelExpression><![CDATA["Número de animais: " + $V{Lote_COUNT}]]></labelExpression>
+				</pieDataset>
+				<piePlot>
+					<plot/>
+					<itemLabel/>
+				</piePlot>
+			</pieChart>
+		</band>
+	</summary>
+</jasperReport>
