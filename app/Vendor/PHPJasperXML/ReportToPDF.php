@@ -28,10 +28,10 @@ class ReportToPDF
 	 * 		DEFAULTS
 	 ***********************/
 	//diretorio das imagens sao default 
-	$params_default = array('IMG_EXPRESSION1' => '../webroot/img/logo1.jpg',
-							'IMG_EXPRESSION2' => '../webroot/img/logo2.jpg',
-							'IMG_EXPRESSION3' => '../webroot/img/logo3.jpg',
-							'IMG_EXPRESSION4' => '../webroot/img/logo4.jpg',
+	$params_default = array('IMG_EXPRESSION1' => '../webroot/img/reports/logo1.jpg',
+							'IMG_EXPRESSION2' => '../webroot/img/reports/logo2.jpg',
+							'IMG_EXPRESSION3' => '../webroot/img/reports/logo3.jpg',
+							'IMG_EXPRESSION4' => '../webroot/img/reports/logo4.jpg',
 							'SUBREPORT_DIR'   => '../webroot/reports/'
 							);		
 							// + "report1_subreport2.jasper"
