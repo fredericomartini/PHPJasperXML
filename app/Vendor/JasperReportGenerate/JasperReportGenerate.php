@@ -35,7 +35,7 @@ define('FILE_SETTINGS_JASPER', APP.'Vendor/JasperReportGenerate/settings_jasper.
 		 */
 		public static function pdf_create($nameReportJasper, $nameReport='', $params='', $format='PDF', $stream=true, $database='default')
 		{
-			$outputJasperReportGenerate = NULL;
+			$outputJasperReportGenerate = array();
 			$pathReport = array();
 
 			$formatReport 	 = 0;
