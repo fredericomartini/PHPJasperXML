@@ -16,7 +16,7 @@
 			<?php echo $this->Html->link(__('View'), array('action' => 'view', $cidade['Cidade']['id'])); ?>
 			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $cidade['Cidade']['id'])); ?>
 			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $cidade['Cidade']['id']), null, __('Are you sure you want to delete # %s?', $cidade['Cidade']['id'])); ?>
-			<?php echo $this->Html->link(__('Relatorio'), array('action' => 'imprimirRelatorio', $cidade['Cidade']['id'])); ?>
+			<?php echo $this->Html->link('Relatorio', array('action' => 'imprimirRelatorio', $cidade['Cidade']['id']), array('target' => '_blank') ); ?>
 			
 		</td>
 	</tr>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="lotacao_potreiro" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e2f212e0-9b56-4335-a062-41c28d9a36a1">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="lotacao_potreiro" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
@@ -119,50 +119,51 @@ FROM
 		<groupHeader>
 			<band height="60">
 				<staticText>
-					<reportElement x="16" y="8" width="40" height="20" uuid="b1b90589-70c1-4f6c-8ef5-94f68b3c1fd5"/>
+					<reportElement x="16" y="8" width="34" height="20"/>
 					<textElement>
 						<font size="12" isBold="true"/>
 					</textElement>
 					<text><![CDATA[Lote:]]></text>
 				</staticText>
 				<textField>
-					<reportElement x="56" y="8" width="200" height="20" uuid="0de775c0-46b4-46e4-97cb-7f9c97cb627e"/>
+					<reportElement x="56" y="8" width="200" height="20"/>
 					<textElement>
 						<font size="12" isBold="false"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{lotes_descricao}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="108" y="34" width="148" height="20" uuid="c3a2e4ed-6357-442a-8c5f-f21804a6f38a"/>
+					<reportElement x="81" y="34" width="163" height="20"/>
 					<textElement>
 						<font size="12" isBold="false"/>
 					</textElement>
 					<textFieldExpression><![CDATA[$F{potreiros_descricao}]]></textFieldExpression>
 				</textField>
 				<textField>
-					<reportElement x="321" y="34" width="100" height="20" uuid="cbe636cd-32d4-4f4b-9a8c-3d31857ae076"/>
+					<reportElement x="296" y="34" width="100" height="20"/>
+					<textElement/>
 					<textFieldExpression><![CDATA[$F{potreiros_area_potreiro}]]></textFieldExpression>
 				</textField>
 				<staticText>
-					<reportElement x="16" y="33" width="92" height="20" uuid="b301941c-81fd-4083-a011-531e47690415"/>
+					<reportElement x="16" y="33" width="61" height="20"/>
 					<textElement>
 						<font size="12" isBold="true"/>
 					</textElement>
 					<text><![CDATA[Potreiro:]]></text>
 				</staticText>
 				<staticText>
-					<reportElement x="264" y="34" width="57" height="20" uuid="65ea6d12-6452-4238-a682-140bfa31cb97"/>
+					<reportElement x="256" y="33" width="32" height="20"/>
 					<textElement>
 						<font size="12" isBold="true"/>
 					</textElement>
-					<text><![CDATA[Área]]></text>
+					<text><![CDATA[Área:]]></text>
 				</staticText>
 			</band>
 		</groupHeader>
 		<groupFooter>
 			<band height="16">
 				<line>
-					<reportElement x="0" y="8" width="555" height="1" uuid="965cb8b5-52ff-4eb9-8ca2-91a182e95f7b"/>
+					<reportElement x="0" y="8" width="555" height="1"/>
 				</line>
 			</band>
 		</groupFooter>
@@ -173,7 +174,7 @@ FROM
 	<title>
 		<band height="79" splitType="Stretch">
 			<staticText>
-				<reportElement x="0" y="5" width="555" height="31" uuid="11169c2c-0602-4fe4-b915-29f92182c76e"/>
+				<reportElement x="0" y="5" width="555" height="31"/>
 				<textElement textAlignment="Center">
 					<font size="20" isBold="true"/>
 				</textElement>
@@ -187,7 +188,7 @@ FROM
 	<columnHeader>
 		<band height="31" splitType="Stretch">
 			<staticText>
-				<reportElement x="186" y="8" width="283" height="20" uuid="7fb58db8-18e2-4d2d-a76c-a727ee89d773"/>
+				<reportElement x="186" y="8" width="283" height="20"/>
 				<textElement>
 					<font size="12" isBold="false" isUnderline="true"/>
 				</textElement>
@@ -198,12 +199,13 @@ FROM
 	<detail>
 		<band height="29" splitType="Stretch">
 			<rectangle>
-				<reportElement x="-19" y="2" width="593" height="25" forecolor="#FFFFFF" backcolor="#CCCCFF" uuid="fff941c6-fe04-43c8-b5ca-06a5f4ea36e9">
+				<reportElement x="-19" y="2" width="593" height="25" forecolor="#FFFFFF" backcolor="#CCCCFF">
 					<printWhenExpression><![CDATA[new Boolean(($V{COLUMN_COUNT}.intValue() % 2) == 0)]]></printWhenExpression>
 				</reportElement>
 			</rectangle>
 			<textField>
-				<reportElement x="186" y="5" width="283" height="20" uuid="d4aea942-4ca8-4e8e-89f8-a5960627d318"/>
+				<reportElement x="186" y="5" width="283" height="20"/>
+				<textElement/>
 				<textFieldExpression><![CDATA["B:  " + $F{animais_brinco} + "  T:  " + $F{animais_tatuagem} + "  HBB/SBB:  " + $F{animais_hbbsbb}]]></textFieldExpression>
 			</textField>
 		</band>
@@ -218,7 +220,7 @@ FROM
 		<band height="598" splitType="Stretch">
 			<pieChart>
 				<chart>
-					<reportElement x="16" y="11" width="519" height="267" uuid="0b5a4134-6a98-429c-b5c8-76d453d0effe"/>
+					<reportElement x="16" y="11" width="519" height="267"/>
 					<chartTitle/>
 					<chartSubtitle/>
 					<chartLegend/>
@@ -234,7 +236,7 @@ FROM
 			</pieChart>
 			<pieChart>
 				<chart>
-					<reportElement x="16" y="327" width="519" height="267" uuid="9716da99-9126-4e9c-883f-fb13650c084a"/>
+					<reportElement x="16" y="327" width="519" height="267"/>
 					<chartTitle/>
 					<chartSubtitle/>
 					<chartLegend/>

@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="rpt1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b8fbbcfa-4687-49ee-b2d9-82b212889be3">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="rpt1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b8fbbcfa-4687-49ee-b2d9-82b212889be3">
 	<property name="ireport.zoom" value="1.2100000000000002"/>
 	<property name="ireport.x" value="0"/>
-	<property name="ireport.y" value="45"/>
-	<parameter name="CIDADE_ID" class="java.lang.Integer">
-		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
-	</parameter>
-	<parameter name="IMG_EXPRESSION1" class="java.lang.String" isForPrompting="false"/>
-	<parameter name="IMG_EXPRESSION2" class="java.lang.String" isForPrompting="false"/>
-	<parameter name="IMG_EXPRESSION3" class="java.lang.String" isForPrompting="false"/>
-	<parameter name="IMG_EXPRESSION4" class="java.lang.String" isForPrompting="false"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="IMG_REPORT_1" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="IMG_REPORT_2" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="IMG_REPORT_3" class="java.lang.String" isForPrompting="false"/>
+	<parameter name="IMG_REPORT_4" class="java.lang.String" isForPrompting="false"/>
 	<queryString>
-		<![CDATA[SELECT "x" as name,    10 as qty1,   20 as qty2,  15 as qty3,  29 as qty4
-UNION ALL
-SELECT "y" ,30,   16,  20 ,  8
-UNION ALL
-SELECT "z" ,20,   8,  2 , 20]]>
+		<![CDATA[SELECT
+ categorialote_id,
+ DATE_FORMAT(dtpesagem,"%d/%m/%Y") as dtpesagem,
+ peso
+ FROM pesagens
+order by peso desc]]>
 	</queryString>
-	<field name="name" class="java.lang.String"/>
-	<field name="qty1" class="java.lang.Long"/>
-	<field name="qty2" class="java.lang.Long"/>
-	<field name="qty3" class="java.lang.Long"/>
-	<field name="qty4" class="java.lang.Long"/>
+	<field name="categorialote_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dtpesagem" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="peso" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
 	<title>
 		<band height="64" splitType="Stretch">
 			<staticText>
@@ -32,12 +34,12 @@ SELECT "z" ,20,   8,  2 , 20]]>
 				<text><![CDATA[Relatório]]></text>
 			</staticText>
 			<image>
-				<reportElement x="1" y="0" width="159" height="64" uuid="2ce61d43-ed72-4bdb-9fb4-38b4c4419456"/>
-				<imageExpression><![CDATA[$P{IMG_EXPRESSION4}]]></imageExpression>
+				<reportElement x="1" y="0" width="159" height="64" uuid="9577297e-2383-4ee7-8975-92b0fd67da3a"/>
+				<imageExpression><![CDATA[$P{IMG_REPORT_1}]]></imageExpression>
 			</image>
 			<image>
-				<reportElement x="354" y="0" width="200" height="64" uuid="cf8f56e5-c178-4020-85f4-795911b5525a"/>
-				<imageExpression><![CDATA[$P{IMG_EXPRESSION1}]]></imageExpression>
+				<reportElement x="395" y="1" width="159" height="63" uuid="787e0b39-cad4-4117-bfcd-1b99db774f32"/>
+				<imageExpression><![CDATA[$P{IMG_REPORT_2}]]></imageExpression>
 			</image>
 		</band>
 	</title>
@@ -56,7 +58,7 @@ SELECT "z" ,20,   8,  2 , 20]]>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="12" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Pais]]></text>
+				<text><![CDATA[Categoria ID]]></text>
 			</staticText>
 			<rectangle>
 				<reportElement mode="Opaque" x="162" y="0" width="160" height="19" backcolor="#E1E1E1" uuid="48390147-b1ea-43e8-ba56-83fb18c34731">
@@ -71,7 +73,7 @@ SELECT "z" ,20,   8,  2 , 20]]>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="12" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Estado]]></text>
+				<text><![CDATA[Dt. Pesagem]]></text>
 			</staticText>
 			<rectangle>
 				<reportElement mode="Opaque" x="324" y="0" width="230" height="19" backcolor="#E1E1E1" uuid="9dd02662-3640-43dc-9a55-a1f76cf9f809">
@@ -86,7 +88,7 @@ SELECT "z" ,20,   8,  2 , 20]]>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="12" isBold="true"/>
 				</textElement>
-				<text><![CDATA[Cidade]]></text>
+				<text><![CDATA[Peso]]></text>
 			</staticText>
 		</band>
 	</columnHeader>
@@ -100,62 +102,41 @@ SELECT "z" ,20,   8,  2 , 20]]>
 					<pen lineWidth="0.0"/>
 				</graphicElement>
 			</rectangle>
+			<textField>
+				<reportElement x="160" y="0" width="159" height="13" uuid="228be067-2e65-42b2-9be5-846488e11ff4"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{dtpesagem}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="395" y="0" width="159" height="13" uuid="98f505b4-d299-467a-ba6d-410f9445bf92"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{peso} + " Kg"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="1" y="0" width="159" height="13" uuid="a76e5f17-ac49-403b-93ee-b8743bda03a4"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{categorialote_id}]]></textFieldExpression>
+			</textField>
 		</band>
 	</detail>
 	<pageFooter>
-		<band height="54" splitType="Stretch">
-			<staticText>
-				<reportElement x="213" y="35" width="165" height="19" uuid="ddfe6754-7fb1-4d4a-afa7-363618bad641"/>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="10" isBold="true"/>
-				</textElement>
-				<text><![CDATA[Cidade Informada:]]></text>
-			</staticText>
-		</band>
+		<band height="54" splitType="Stretch"/>
 	</pageFooter>
 	<summary>
-		<band height="324">
-			<image>
-				<reportElement x="1" y="0" width="200" height="100" uuid="41ac6da8-bb66-496e-b82c-888a01ed9c25"/>
-				<imageExpression><![CDATA[$P{IMG_EXPRESSION3}]]></imageExpression>
-			</image>
-			<image>
-				<reportElement x="354" y="0" width="200" height="100" uuid="2728ea8a-3883-4ca5-ace9-58afb1d4e17f"/>
-				<imageExpression><![CDATA[$P{IMG_EXPRESSION2}]]></imageExpression>
-			</image>
+		<band height="129">
 			<lineChart>
-				<chart isShowLegend="true">
-					<reportElement mode="Transparent" x="50" y="118" width="453" height="169" uuid="1c0ba883-527a-497f-bb08-3513c08a7277"/>
-					<chartTitle>
-						<titleExpression><![CDATA["Line Chart"]]></titleExpression>
-					</chartTitle>
+				<chart>
+					<reportElement mode="Transparent" x="-1" y="0" width="555" height="125" uuid="057a338c-08fe-465b-96c4-cf219db2b989"/>
+					<chartTitle/>
 					<chartSubtitle/>
 					<chartLegend/>
 				</chart>
 				<categoryDataset>
 					<categorySeries>
-						<seriesExpression><![CDATA[$F{name}]]></seriesExpression>
-						<categoryExpression><![CDATA["qty1"]]></categoryExpression>
-						<valueExpression><![CDATA[$F{qty1}]]></valueExpression>
-						<labelExpression><![CDATA[$F{name}]]></labelExpression>
-					</categorySeries>
-					<categorySeries>
-						<seriesExpression><![CDATA[$F{name}]]></seriesExpression>
-						<categoryExpression><![CDATA["qty2"]]></categoryExpression>
-						<valueExpression><![CDATA[$F{qty2}]]></valueExpression>
-						<labelExpression><![CDATA[$F{name}]]></labelExpression>
-					</categorySeries>
-					<categorySeries>
-						<seriesExpression><![CDATA[$F{name}]]></seriesExpression>
-						<categoryExpression><![CDATA["qty3"]]></categoryExpression>
-						<valueExpression><![CDATA[$F{qty3}]]></valueExpression>
-						<labelExpression><![CDATA[$F{name}]]></labelExpression>
-					</categorySeries>
-					<categorySeries>
-						<seriesExpression><![CDATA[$F{name}]]></seriesExpression>
-						<categoryExpression><![CDATA["qty4"]]></categoryExpression>
-						<valueExpression><![CDATA[$F{qty4}]]></valueExpression>
-						<labelExpression><![CDATA[$F{name}]]></labelExpression>
+						<seriesExpression><![CDATA["TESTE"]]></seriesExpression>
+						<categoryExpression><![CDATA[$F{dtpesagem}]]></categoryExpression>
+						<valueExpression><![CDATA[$F{peso}]]></valueExpression>
+						<labelExpression><![CDATA["TESTE"]]></labelExpression>
 					</categorySeries>
 				</categoryDataset>
 				<linePlot isShowLines="true" isShowShapes="true">

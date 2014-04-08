@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="pesagem_lotes" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0b5a09c0-349c-4e91-90f6-988ba6365446">
-	<property name="ireport.zoom" value="1.3310000000000004"/>
-	<property name="ireport.x" value="12"/>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="pesagem_lotes" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="68f7f68d-f409-45cb-a5e2-d567e8a315f5">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
 	<property name="ireport.y" value="0"/>
 	<queryString>
 		<![CDATA[SELECT
@@ -43,8 +43,9 @@
      empresas.`tipoimagem` AS empresas_tipoimagem
 FROM
      `lotes` lotes INNER JOIN `categorialotes` categorialotes ON lotes.`id` = categorialotes.`lote_id`
-     INNER JOIN `pesagens` pesagens ON categorialotes.`id` = pesagens.`categorialote_id`
-     INNER JOIN `empresas` empresas ON lotes.`empresa_id` = empresas.`id`]]>
+     JOIN `pesagens` pesagens ON categorialotes.`id` = pesagens.`categorialote_id`
+     JOIN `empresas` empresas ON lotes.`empresa_id` = empresas.`id`
+]]>
 	</queryString>
 	<field name="lotes_id" class="java.lang.Integer"/>
 	<field name="lotes_empresa_id" class="java.lang.Integer"/>
@@ -84,34 +85,23 @@ FROM
 	<field name="empresas_tipoimagem" class="java.lang.String"/>
 	<sortField name="lotes_descricao"/>
 	<sortField name="pesagens_dtpesagem"/>
-	<group name="groupLote">
+	<group name="Lote" isStartNewPage="true">
 		<groupExpression><![CDATA[$F{lotes_id}]]></groupExpression>
 		<groupHeader>
-			<band height="36" splitType="Stretch">
+			<band height="36">
+				<textField>
+					<reportElement x="111" y="8" width="251" height="20" uuid="f5844ba6-a470-447b-b9d3-95f0c565cc36"/>
+					<textElement>
+						<font size="12" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{lotes_descricao}]]></textFieldExpression>
+				</textField>
 				<staticText>
-					<reportElement x="0" y="16" width="105" height="20" uuid="f51d6995-f707-40c1-be6f-079cd2b74605"/>
+					<reportElement x="15" y="8" width="96" height="20" uuid="a717f20a-021b-47b3-8e89-9d85d0a2e32a"/>
 					<textElement>
 						<font size="12" isBold="true"/>
 					</textElement>
 					<text><![CDATA[Lote:]]></text>
-				</staticText>
-				<textField>
-					<reportElement x="105" y="16" width="124" height="20" uuid="154ac889-3ff6-41c4-a6e1-d3474d6b235e"/>
-					<textFieldExpression><![CDATA[$F{lotes_descricao}]]></textFieldExpression>
-				</textField>
-				<staticText>
-					<reportElement x="422" y="16" width="100" height="20" uuid="8d4be3ba-b81d-4f6e-acdf-c850586f0e15"/>
-					<textElement textAlignment="Right">
-						<font isBold="true" isUnderline="true"/>
-					</textElement>
-					<text><![CDATA[Peso]]></text>
-				</staticText>
-				<staticText>
-					<reportElement x="229" y="16" width="193" height="20" uuid="e0499830-75af-4d0c-b7df-0102e9c8343c"/>
-					<textElement textAlignment="Center">
-						<font isBold="true" isUnderline="true"/>
-					</textElement>
-					<text><![CDATA[Data pesagem]]></text>
 				</staticText>
 			</band>
 		</groupHeader>
@@ -120,20 +110,21 @@ FROM
 				<elementGroup>
 					<lineChart>
 						<chart>
-							<reportElement x="15" y="13" width="437" height="176" uuid="66e8bc14-60c0-47bc-b37e-0d78ddd65450"/>
+							<reportElement x="15" y="13" width="437" height="176" uuid="2b129b0c-980e-4d81-b187-5c39be3d7a15"/>
 							<chartTitle/>
 							<chartSubtitle/>
 							<chartLegend/>
 						</chart>
 						<categoryDataset>
-							<dataset resetType="Group" resetGroup="groupLote"/>
+							<dataset resetType="Group" resetGroup="Lote"/>
 							<categorySeries>
 								<seriesExpression><![CDATA[$F{lotes_descricao}]]></seriesExpression>
 								<categoryExpression><![CDATA[$F{pesagens_dtpesagem}]]></categoryExpression>
 								<valueExpression><![CDATA[$F{pesagens_peso}]]></valueExpression>
+								<labelExpression><![CDATA[$F{lotes_descricao}]]></labelExpression>
 							</categorySeries>
 						</categoryDataset>
-						<linePlot isShowLines="true" isShowShapes="true">
+						<linePlot>
 							<plot/>
 							<categoryAxisFormat>
 								<axisFormat/>
@@ -150,26 +141,52 @@ FROM
 	<background>
 		<band splitType="Stretch"/>
 	</background>
-	<pageHeader>
-		<band height="35" splitType="Stretch">
+	<title>
+		<band height="86" splitType="Stretch">
 			<staticText>
-				<reportElement x="0" y="0" width="801" height="31" uuid="9e72dfe3-33d3-4255-a87a-9fa1b806bc60"/>
+				<reportElement x="1" y="2" width="801" height="31" uuid="7962905c-af1a-4690-8342-dfe23f590989"/>
 				<textElement textAlignment="Center">
 					<font size="20" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Pesagem de animais por lote]]></text>
 			</staticText>
 		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
 	</pageHeader>
+	<columnHeader>
+		<band height="35" splitType="Stretch">
+			<staticText>
+				<reportElement x="173" y="13" width="100" height="20" uuid="6d54134d-979b-47b5-9fe6-3fc530542e78"/>
+				<textElement textAlignment="Center">
+					<font isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Data pesagem]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="287" y="15" width="100" height="20" uuid="afd97bc3-946a-4669-9de0-ae62622f1d07"/>
+				<textElement textAlignment="Right">
+					<font isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Peso]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
 	<detail>
 		<band height="27" splitType="Stretch">
+			<rectangle>
+				<reportElement x="-20" y="0" width="841" height="25" forecolor="#FFFFFF" backcolor="#CCCCFF" uuid="2c093adf-7431-441b-9e3d-1758d800266f">
+					<printWhenExpression><![CDATA[new Boolean(($V{COLUMN_COUNT}.intValue() % 2) == 0)]]></printWhenExpression>
+				</reportElement>
+			</rectangle>
 			<textField pattern="dd/MM/yyyy">
-				<reportElement x="243" y="0" width="144" height="20" uuid="92d4ee1f-23e0-4c73-afff-6a854a36cb6d"/>
+				<reportElement x="173" y="5" width="100" height="20" uuid="88d7008a-2f0f-4004-aa2b-479289453f5e"/>
 				<textElement textAlignment="Center"/>
 				<textFieldExpression><![CDATA[$F{pesagens_dtpesagem}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="405" y="7" width="150" height="20" uuid="747808e3-03b8-4b4d-8f67-956fc48e4423"/>
+				<reportElement x="304" y="5" width="100" height="20" uuid="af5dbee9-a6a6-4809-8331-cf4169b4aba3"/>
 				<textElement textAlignment="Right"/>
 				<textFieldExpression><![CDATA[$F{pesagens_peso}]]></textFieldExpression>
 			</textField>

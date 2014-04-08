@@ -1,6 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
 App::import('Vendor', 'PHPJasperXML/ReportToPDF');
+App::import('Vendor', 'JasperReportGenerate/JasperReportGenerate');
 
 /**
  * Cidades Controller
@@ -26,8 +27,8 @@ class CidadesController extends AppController {
 
 	
 	public function index() {
-		//$this->Cidade->recursive = 0;
-		//$this->set('cidades', $this->Paginator->paginate());
+		$this->Cidade->recursive = 0;
+		$this->set('cidades', $this->Paginator->paginate());
  		//ReportToPDF::generateReport(array('ESTADO_ID'=> 1), 'rpt1.jrxml','',2);
  		
  		//$this->Report   = new ReportToPDF();
@@ -35,7 +36,6 @@ class CidadesController extends AppController {
  		//debug($this->Report);
  		//$this->Report->generateReport(array('ESTADO_ID'=>1), 'rpt1.jrxml','',2);
 	 	//ReportToPDF::generateReport('', 'sample6.jrxml','',2);
-	 	ReportToPDF::generateReport('', 'sample6.jrxml');
 	 	
 	}
 
@@ -112,7 +112,14 @@ class CidadesController extends AppController {
 	public function imprimirRelatorio($id = null)
 	{
 		//if(isset($id) && $id !='')
-			ReportToPDF::generateReport('', 'pesagem_lotes.jrxml');
+			//ReportToPDF::generateReport(array('CIDADE_ID' => 1), 'report1.jrxml', 1); //abre em nova janela
+			
+		//$nameReportJasper, $nameReport='', $params='', $format='PDF', $stream=true, $database='bd_teste'
+		//$t = new Jasperreportgenerate();
+		//$t->pdf_create('rptTesteComGrafico.jasper','com_grafico');
+		
+		Jasperreportgenerate::pdf_create('rptTesteComGrafico.jasper','Relatorio','','PDF',TRUE, 'default');
+		
 	}
 }
 
