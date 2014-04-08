@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="pesagens" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a496b017-5592-4388-9a2c-9a7d8b8336b3">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="CATEGORIA_LOTE_ID" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT categorialote_id, dtpesagem, peso FROM pesagens]]>
+	</queryString>
+	<field name="categorialote_id" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="dtpesagem" class="java.sql.Date">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="peso" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="25" splitType="Stretch">
+			<staticText>
+				<reportElement x="364" y="0" width="100" height="20" uuid="da7accc7-24de-4fc6-843f-ceb3619b8e01"/>
+				<text><![CDATA[peso]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="42" y="2" width="100" height="20" uuid="7a190c1e-9459-4071-81f1-56bcc0f5a40e"/>
+				<text><![CDATA[categorialote_id]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="194" y="2" width="100" height="20" uuid="9897f523-9848-4899-8bd7-697d160ddd2d"/>
+				<text><![CDATA[dtpesagem]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="32" splitType="Stretch">
+			<elementGroup/>
+			<textField>
+				<reportElement x="364" y="9" width="100" height="20" uuid="05241c8c-d8f3-4feb-9776-0da5050d33a3"/>
+				<textFieldExpression><![CDATA[$F{peso}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="42" y="10" width="100" height="20" uuid="025e1108-1094-41ad-a617-4a7d567ccbc1"/>
+				<textFieldExpression><![CDATA[$F{categorialote_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="194" y="12" width="100" height="20" uuid="8cb5a89f-f5b8-4786-9701-e7d284e59f96"/>
+				<textFieldExpression><![CDATA[$F{dtpesagem}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="125" splitType="Stretch">
+			<lineChart>
+				<chart>
+					<reportElement mode="Transparent" x="0" y="0" width="555" height="125" uuid="86cf451c-e6ee-4afb-b6ae-75a25be79db0"/>
+					<chartTitle/>
+					<chartSubtitle/>
+					<chartLegend/>
+				</chart>
+				<categoryDataset>
+					<categorySeries>
+						<seriesExpression><![CDATA["TESTE"]]></seriesExpression>
+						<categoryExpression><![CDATA[$F{dtpesagem}]]></categoryExpression>
+						<valueExpression><![CDATA[$F{peso}]]></valueExpression>
+						<labelExpression><![CDATA["TESTE"]]></labelExpression>
+					</categorySeries>
+				</categoryDataset>
+				<linePlot isShowLines="true" isShowShapes="true">
+					<plot/>
+					<categoryAxisFormat>
+						<axisFormat/>
+					</categoryAxisFormat>
+					<valueAxisFormat>
+						<axisFormat/>
+					</valueAxisFormat>
+				</linePlot>
+			</lineChart>
+		</band>
+	</summary>
+</jasperReport>
